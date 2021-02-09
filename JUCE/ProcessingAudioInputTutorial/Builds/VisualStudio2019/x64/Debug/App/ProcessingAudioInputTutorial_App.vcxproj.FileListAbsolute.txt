@@ -1,0 +1,2 @@
+C:\Users\paulw\Desktop\ProcessingAudioInputTutorial\Builds\VisualStudio2019\x64\Debug\App\ProcessingAudioInputTutorial.exe
+C:\Users\paulw\Desktop\ProcessingAudioInputTutorial\Builds\VisualStudio2019\x64\Debug\App\ProcessingAudioInputTutorial.pdb
