@@ -1,0 +1,6 @@
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -G "Visual Studio 16 2019" C:\Users\paulw\Desktop\portaudio
+-- Selecting Windows SDK version 10.0.18362.0 to target Windows 10.0.18363.
+-- Could NOT find ASIOSDK (missing: ASIOSDK_ROOT_DIR ASIOSDK_INCLUDE_DIR) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/paulw/Desktop/portaudio/cmake-build-debug
