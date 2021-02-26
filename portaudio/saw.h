@@ -1,3 +1,6 @@
+
+// Sawtooth formula by Paul Wienk
+
 #pragma once
 
 #include <iostream>

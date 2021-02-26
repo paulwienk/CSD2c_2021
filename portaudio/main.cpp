@@ -1,13 +1,13 @@
-/*
- * PortAudio API wrapper by Wouter Ensink
- */
+
+// PortAudio API wrapper by Wouter Ensink
 
 #include <random>
 #include <iostream>
+#include <string>
 #include "port_audio.h"
 #include "saw.h"
 #include "circBuffer.h"
-#include <string>
+
 
 class NoiseTestCallback : public AudioIODeviceCallback
 {
@@ -20,9 +20,7 @@ public:
 
     }
 
-    // setDistanceRW bepaalt de distance tussen readhead en writehead
-    // bij .write wordt je stem in de buffer gestopt
-    // verandering in distance tussen de heads bepaalt de pitch
+    // change in distance = change in pitch
     void process (float* input, float* output, int numSamples, int numChannels) override
     {
         for (auto sample = 0; sample < numSamples; ++sample)
@@ -51,7 +49,7 @@ public:
 
 };
 
-// function to change the pitch in the commandline
+// function to change the pitch in the commandline, real change happens at line 77
 auto getNumericInput() {
     auto ans = std::string {};
     std::getline(std::cin, ans);

@@ -1,4 +1,5 @@
-// by Ciska Vriezenga
+
+// Circular buffer by Ciska Vriezenga
 
 #pragma once
 

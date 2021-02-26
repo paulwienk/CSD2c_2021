@@ -1,3 +1,6 @@
+
+// Oscillator by Paul Wienk
+
 #pragma once
 
 // Oscillator base class
@@ -10,11 +13,7 @@ public:
     //return the current sample
     float getSample();
 
-    float getDelay();
-
     //getters and setters
-    void setAmplitude(float);
-
     void setFrequency(float frequency);
 
     void setSampleRate(float sampleRate);
@@ -24,11 +23,8 @@ public:
 protected:
     double sampleRate;
     double frequency;
-    double amplitude = 1.0;
     double phase = 0.0;
     double sample = 0.0;
-    double delay = 0.0;
-
 
     double phaseIncrement = frequency / sampleRate;
 

@@ -1,4 +1,5 @@
-#define _USE_MATH_DEFINES
+
+// Oscillator by Paul Wienk
 
 #include <math.h>
 #include "oscillator.h"
@@ -17,15 +18,10 @@ void Oscillator::updatePhase() {
     phase = modulo(phase + phaseIncrement, 1.0);
 }
 
-// returnt de huidige sample
+// current sample return
 float Oscillator::getSample() {
     return sample;
 }
-
-float Oscillator::getDelay() {
-    return delay;
-}
-
 
 void Oscillator::setFrequency(float frequency) {
     this->frequency = frequency;
@@ -36,9 +32,4 @@ void Oscillator::setFrequency(float frequency) {
 void Oscillator::setSampleRate(float sampleRate) {
     this->sampleRate = sampleRate;
     phaseIncrement = frequency / sampleRate;
-}
-
-
-void Oscillator::setAmplitude(float amp) {
-    amplitude = amp;
 }
