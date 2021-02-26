@@ -1,8 +1,8 @@
-C:/Users/paulw/Desktop/portaudio/cmake-build-debug/CMakeFiles/test.dir
-C:/Users/paulw/Desktop/portaudio/cmake-build-debug/CMakeFiles/INSTALL.dir
-C:/Users/paulw/Desktop/portaudio/cmake-build-debug/CMakeFiles/ALL_BUILD.dir
-C:/Users/paulw/Desktop/portaudio/cmake-build-debug/CMakeFiles/ZERO_CHECK.dir
-C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-build/CMakeFiles/INSTALL.dir
-C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-build/CMakeFiles/portaudio.dir
-C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-build/CMakeFiles/portaudio_static.dir
-C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-build/CMakeFiles/uninstall.dir
+D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/CMakeFiles/test.dir
+D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/CMakeFiles/INSTALL.dir
+D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/CMakeFiles/ALL_BUILD.dir
+D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/CMakeFiles/ZERO_CHECK.dir
+D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build/CMakeFiles/INSTALL.dir
+D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build/CMakeFiles/portaudio.dir
+D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build/CMakeFiles/portaudio_static.dir
+D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build/CMakeFiles/uninstall.dir

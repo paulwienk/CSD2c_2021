@@ -6,6 +6,8 @@
 #include <iostream>
 #include "port_audio.h"
 #include "saw.h"
+#include "circBuffer.h"
+#include <string>
 
 class NoiseTestCallback : public AudioIODeviceCallback
 {
@@ -15,14 +17,24 @@ public:
     {
         std::cout << "starting callback\n";
         saw.setSampleRate(sampleRate);
+
     }
-    
+
+    // setDistanceRW bepaalt de distance tussen readhead en writehead
+    // bij .write wordt je stem in de buffer gestopt
+    // verandering in distance tussen de heads bepaalt de pitch
     void process (float* input, float* output, int numSamples, int numChannels) override
     {
         for (auto sample = 0; sample < numSamples; ++sample)
         {
-            output[sample * 2] = input[sample * 2] * saw.getSample();
-            output[sample * 2 + 1] = input[sample * 2 + 1] * saw.getSample();
+            circBufferL.setDistanceRW((saw.getSample() * 4410));
+            circBufferR.setDistanceRW((saw.getSample() * 4410));
+            circBufferL.write(input[sample * 2]);
+            circBufferR.write(input[sample * 2 + 1]);
+            circBufferL.tick();
+            circBufferR.tick();
+            output[sample * 2] = circBufferL.read();
+            output[sample * 2 + 1] = circBufferR.read();
             saw.tick();
         }
     }
@@ -33,9 +45,19 @@ public:
     }
 
 
-    Saw saw{800, 44100};
+    Saw saw{30, 44100};
+    CircBuffer circBufferL{44100};
+    CircBuffer circBufferR{44100};
 
 };
+
+// function to change the pitch in the commandline
+auto getNumericInput() {
+    auto ans = std::string {};
+    std::getline(std::cin, ans);
+    return std::stod(ans);
+}
+
 
 // ========================================================================================
 
@@ -51,8 +73,9 @@ int main()
     {
         portAudio.setup (sampleRate, blockSize);
     
-        std::cout << "Press enter to exit...\n";
-        std::cin.get();
+        while (true)
+            callback.saw.setFrequency(getNumericInput());
+
 
         portAudio.teardown();
     }

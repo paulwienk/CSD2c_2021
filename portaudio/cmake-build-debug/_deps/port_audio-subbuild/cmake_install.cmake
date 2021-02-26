@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild
+# Install script for directory: D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

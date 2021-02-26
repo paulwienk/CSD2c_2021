@@ -10,6 +10,8 @@ public:
     //return the current sample
     float getSample();
 
+    float getDelay();
+
     //getters and setters
     void setAmplitude(float);
 
@@ -25,6 +27,8 @@ protected:
     double amplitude = 1.0;
     double phase = 0.0;
     double sample = 0.0;
+    double delay = 0.0;
+
 
     double phaseIncrement = frequency / sampleRate;
 

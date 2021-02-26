@@ -1,6 +1,6 @@
-^C:\USERS\PAULW\DESKTOP\PORTAUDIO\CMAKE-BUILD-DEBUG\_DEPS\PORT_AUDIO-SUBBUILD\CMAKEFILES\6588D88C920AC1E37209317C744A892B\GENERATE.STAMP.RULE
+^D:\HKU\JAAR2\CSD2C_2021\PORTAUDIO\CMAKE-BUILD-DEBUG\_DEPS\PORT_AUDIO-SUBBUILD\CMAKEFILES\DD6D8EC51AB286B28C310A635F0D3819\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -SC:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild -BC:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate.sln
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -SD:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild -BD:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

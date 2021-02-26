@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeLists.txt" />
+    <CustomBuild Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>

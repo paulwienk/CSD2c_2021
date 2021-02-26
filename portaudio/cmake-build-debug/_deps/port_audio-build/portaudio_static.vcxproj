@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{E300A21F-F990-33C7-A0FD-B2230AA6D748}</ProjectGuid>
+    <ProjectGuid>{74AA82DC-A01D-3918-B955-00891BDAF86E}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">portaudio_static.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">portaudio_static_x64</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">portaudio_static.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">portaudio_static_x64</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">portaudio_static.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">portaudio_static_x64</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">portaudio_static.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">portaudio_static_x64</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\common;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\common;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsC</CompileAs>
@@ -95,10 +95,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;PAWIN_USE_DIRECTSOUNDFULLDUPLEXCREATE;PAWIN_USE_WDMKS_DEVICE_INFO;PORTAUDIO_CMAKE_GENERATED;PA_LITTLE_ENDIAN;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\common;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\common;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\common;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\common;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -111,7 +111,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\common;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\common;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsC</CompileAs>
       <ExceptionHandling>
@@ -128,10 +128,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;PAWIN_USE_DIRECTSOUNDFULLDUPLEXCREATE;PAWIN_USE_WDMKS_DEVICE_INFO;PORTAUDIO_CMAKE_GENERATED;PA_LITTLE_ENDIAN;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\common;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\common;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\common;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\common;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -144,7 +144,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\common;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\common;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsC</CompileAs>
       <ExceptionHandling>
@@ -161,10 +161,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;PAWIN_USE_DIRECTSOUNDFULLDUPLEXCREATE;PAWIN_USE_WDMKS_DEVICE_INFO;PORTAUDIO_CMAKE_GENERATED;PA_LITTLE_ENDIAN;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\common;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\common;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\common;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\common;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -177,7 +177,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\common;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\common;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsC</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -193,10 +193,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;PAWIN_USE_DIRECTSOUNDFULLDUPLEXCREATE;PAWIN_USE_WDMKS_DEVICE_INFO;PORTAUDIO_CMAKE_GENERATED;PA_LITTLE_ENDIAN;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\common;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\common;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\common;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\common;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -208,10 +208,10 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-src/CMakeLists.txt</Message>
+    <CustomBuild Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -SC:/Users/paulw/Desktop/portaudio -BC:/Users/paulw/Desktop/portaudio/cmake-build-debug --check-stamp-file C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-build/CMakeFiles/generate.stamp
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -SD:/hku/jaar2/CSD2c_2021/portaudio -BD:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug --check-stamp-file D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -219,12 +219,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckTypeSize.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\TestBigEndian.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\FindASIOSDK.cmake;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\cmake_uninstall.cmake.in;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\options_cmake.h.in;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\portaudio-2.0.pc.in;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\portaudioConfig.cmake.in;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\template_portaudio.def;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckTypeSize.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\TestBigEndian.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\WriteBasicConfigVersionFile.cmake;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\FindASIOSDK.cmake;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\cmake_uninstall.cmake.in;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\options_cmake.h.in;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\portaudio-2.0.pc.in;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\portaudioConfig.cmake.in;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\template_portaudio.def;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -SC:/Users/paulw/Desktop/portaudio -BC:/Users/paulw/Desktop/portaudio/cmake-build-debug --check-stamp-file C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-build/CMakeFiles/generate.stamp
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -SD:/hku/jaar2/CSD2c_2021/portaudio -BD:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug --check-stamp-file D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -232,12 +232,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckTypeSize.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\TestBigEndian.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\FindASIOSDK.cmake;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\cmake_uninstall.cmake.in;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\options_cmake.h.in;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\portaudio-2.0.pc.in;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\portaudioConfig.cmake.in;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\template_portaudio.def;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckTypeSize.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\TestBigEndian.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\WriteBasicConfigVersionFile.cmake;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\FindASIOSDK.cmake;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\cmake_uninstall.cmake.in;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\options_cmake.h.in;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\portaudio-2.0.pc.in;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\portaudioConfig.cmake.in;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\template_portaudio.def;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -SC:/Users/paulw/Desktop/portaudio -BC:/Users/paulw/Desktop/portaudio/cmake-build-debug --check-stamp-file C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-build/CMakeFiles/generate.stamp
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -SD:/hku/jaar2/CSD2c_2021/portaudio -BD:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug --check-stamp-file D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -245,12 +245,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckTypeSize.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\TestBigEndian.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\FindASIOSDK.cmake;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\cmake_uninstall.cmake.in;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\options_cmake.h.in;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\portaudio-2.0.pc.in;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\portaudioConfig.cmake.in;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\template_portaudio.def;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckTypeSize.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\TestBigEndian.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\WriteBasicConfigVersionFile.cmake;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\FindASIOSDK.cmake;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\cmake_uninstall.cmake.in;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\options_cmake.h.in;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\portaudio-2.0.pc.in;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\portaudioConfig.cmake.in;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\template_portaudio.def;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -SC:/Users/paulw/Desktop/portaudio -BC:/Users/paulw/Desktop/portaudio/cmake-build-debug --check-stamp-file C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-build/CMakeFiles/generate.stamp
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -SD:/hku/jaar2/CSD2c_2021/portaudio -BD:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug --check-stamp-file D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -258,164 +258,164 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckTypeSize.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\TestBigEndian.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\FindASIOSDK.cmake;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\cmake_uninstall.cmake.in;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\options_cmake.h.in;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\portaudio-2.0.pc.in;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\portaudioConfig.cmake.in;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\template_portaudio.def;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckTypeSize.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\TestBigEndian.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\WriteBasicConfigVersionFile.cmake;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\FindASIOSDK.cmake;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\cmake_uninstall.cmake.in;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\options_cmake.h.in;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\portaudio-2.0.pc.in;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\portaudioConfig.cmake.in;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\template_portaudio.def;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win\pa_win_coinitialize.h" />
-    <ClInclude Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win\pa_win_wdmks_utils.h" />
-    <ClInclude Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win\pa_x86_plain_converters.h" />
-    <ClInclude Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\hostapi\dsound\pa_win_ds_dynlink.h" />
-    <ClInclude Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build\options_cmake.h" />
-    <ClInclude Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\include\portaudio.h" />
-    <ClInclude Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\include\pa_win_ds.h" />
-    <ClInclude Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\include\pa_win_waveformat.h" />
-    <ClInclude Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\include\pa_win_wmme.h" />
-    <ClInclude Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\include\pa_win_wasapi.h" />
-    <ClInclude Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\include\pa_win_wdmks.h" />
-    <ClInclude Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_allocation.h" />
-    <ClInclude Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_converters.h" />
-    <ClInclude Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_cpuload.h" />
-    <ClInclude Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_debugprint.h" />
-    <ClInclude Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_dither.h" />
-    <ClInclude Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_endianness.h" />
-    <ClInclude Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_hostapi.h" />
-    <ClInclude Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_memorybarrier.h" />
-    <ClInclude Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_process.h" />
-    <ClInclude Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_ringbuffer.h" />
-    <ClInclude Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_stream.h" />
-    <ClInclude Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_trace.h" />
-    <ClInclude Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_types.h" />
-    <ClInclude Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_util.h" />
-    <ClCompile Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_allocation.c">
+    <ClInclude Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win\pa_win_coinitialize.h" />
+    <ClInclude Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win\pa_win_wdmks_utils.h" />
+    <ClInclude Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win\pa_x86_plain_converters.h" />
+    <ClInclude Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\hostapi\dsound\pa_win_ds_dynlink.h" />
+    <ClInclude Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build\options_cmake.h" />
+    <ClInclude Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\include\portaudio.h" />
+    <ClInclude Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\include\pa_win_ds.h" />
+    <ClInclude Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\include\pa_win_waveformat.h" />
+    <ClInclude Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\include\pa_win_wmme.h" />
+    <ClInclude Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\include\pa_win_wasapi.h" />
+    <ClInclude Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\include\pa_win_wdmks.h" />
+    <ClInclude Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_allocation.h" />
+    <ClInclude Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_converters.h" />
+    <ClInclude Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_cpuload.h" />
+    <ClInclude Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_debugprint.h" />
+    <ClInclude Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_dither.h" />
+    <ClInclude Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_endianness.h" />
+    <ClInclude Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_hostapi.h" />
+    <ClInclude Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_memorybarrier.h" />
+    <ClInclude Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_process.h" />
+    <ClInclude Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_ringbuffer.h" />
+    <ClInclude Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_stream.h" />
+    <ClInclude Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_trace.h" />
+    <ClInclude Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_types.h" />
+    <ClInclude Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_util.h" />
+    <ClCompile Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_allocation.c">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
-    <ClCompile Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_converters.c">
+    <ClCompile Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_converters.c">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
-    <ClCompile Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_cpuload.c">
+    <ClCompile Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_cpuload.c">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
-    <ClCompile Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_debugprint.c">
+    <ClCompile Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_debugprint.c">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
-    <ClCompile Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_dither.c">
+    <ClCompile Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_dither.c">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
-    <ClCompile Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_front.c">
+    <ClCompile Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_front.c">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
-    <ClCompile Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_process.c">
+    <ClCompile Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_process.c">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
-    <ClCompile Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_ringbuffer.c">
+    <ClCompile Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_ringbuffer.c">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
-    <ClCompile Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_stream.c">
+    <ClCompile Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_stream.c">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
-    <ClCompile Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_trace.c">
+    <ClCompile Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\common\pa_trace.c">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
-    <ClCompile Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\hostapi\skeleton\pa_hostapi_skeleton.c">
+    <ClCompile Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\hostapi\skeleton\pa_hostapi_skeleton.c">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
-    <ClCompile Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win\pa_win_hostapis.c">
+    <ClCompile Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win\pa_win_hostapis.c">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
-    <ClCompile Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win\pa_win_util.c">
+    <ClCompile Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win\pa_win_util.c">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
-    <ClCompile Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win\pa_win_waveformat.c">
+    <ClCompile Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win\pa_win_waveformat.c">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
-    <ClCompile Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win\pa_win_wdmks_utils.c">
+    <ClCompile Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win\pa_win_wdmks_utils.c">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
-    <ClCompile Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win\pa_win_coinitialize.c">
+    <ClCompile Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win\pa_win_coinitialize.c">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
-    <ClCompile Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win\pa_x86_plain_converters.c">
+    <ClCompile Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\os\win\pa_x86_plain_converters.c">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
-    <ClCompile Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\hostapi\dsound\pa_win_ds.c">
+    <ClCompile Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\hostapi\dsound\pa_win_ds.c">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
-    <ClCompile Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\hostapi\dsound\pa_win_ds_dynlink.c">
+    <ClCompile Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\hostapi\dsound\pa_win_ds_dynlink.c">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
-    <ClCompile Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\hostapi\wmme\pa_win_wmme.c">
+    <ClCompile Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\hostapi\wmme\pa_win_wmme.c">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
-    <ClCompile Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\hostapi\wasapi\pa_win_wasapi.c">
+    <ClCompile Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\hostapi\wasapi\pa_win_wasapi.c">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
-    <ClCompile Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\src\hostapi\wdmks\pa_win_wdmks.c">
+    <ClCompile Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\src\hostapi\wdmks\pa_win_wdmks.c">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">UNICODE;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -423,8 +423,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\ZERO_CHECK.vcxproj">
-      <Project>{F438BF04-663B-31F5-9CF1-FEF45BFA3640}</Project>
+    <ProjectReference Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\ZERO_CHECK.vcxproj">
+      <Project>{298B34C3-3AA7-39B2-8A78-2F7CDCADB171}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

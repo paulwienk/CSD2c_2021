@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\CMakeFiles\8c0cea158a439533f81c5ecca932710a\uninstall.rule">
+    <CustomBuild Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\CMakeFiles\1550083dd6bf563e824baa32e28e7cb7\uninstall.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\CMakeLists.txt" />
+    <CustomBuild Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build\CMakeFiles\uninstall" />
+    <None Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build\CMakeFiles\uninstall" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{DF9BD81E-86E4-321E-8561-A55071F0A847}</UniqueIdentifier>
+      <UniqueIdentifier>{02308743-D9B3-3C1B-AE6D-EF7341F5266A}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

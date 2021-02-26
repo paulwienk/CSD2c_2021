@@ -8,10 +8,10 @@ C:/Program Files/JetBrains/CLion 2020.3/bin/cmake/win/share/cmake-3.17/Modules/F
 C:/Program Files/JetBrains/CLion 2020.3/bin/cmake/win/share/cmake-3.17/Modules/FindPackageMessage.cmake
 C:/Program Files/JetBrains/CLion 2020.3/bin/cmake/win/share/cmake-3.17/Modules/TestBigEndian.cmake
 C:/Program Files/JetBrains/CLion 2020.3/bin/cmake/win/share/cmake-3.17/Modules/WriteBasicConfigVersionFile.cmake
-C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-src/CMakeLists.txt
-C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-src/cmake_support/FindASIOSDK.cmake
-C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-src/cmake_support/cmake_uninstall.cmake.in
-C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-src/cmake_support/options_cmake.h.in
-C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-src/cmake_support/portaudio-2.0.pc.in
-C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-src/cmake_support/portaudioConfig.cmake.in
-C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-src/cmake_support/template_portaudio.def
+D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-src/CMakeLists.txt
+D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-src/cmake_support/FindASIOSDK.cmake
+D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-src/cmake_support/cmake_uninstall.cmake.in
+D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-src/cmake_support/options_cmake.h.in
+D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-src/cmake_support/portaudio-2.0.pc.in
+D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-src/cmake_support/portaudioConfig.cmake.in
+D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-src/cmake_support/template_portaudio.def

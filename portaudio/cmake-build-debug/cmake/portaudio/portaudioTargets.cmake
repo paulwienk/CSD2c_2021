@@ -45,22 +45,22 @@ unset(_expectedTargets)
 add_library(portaudio SHARED IMPORTED)
 
 set_target_properties(portaudio PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-src/include"
+  INTERFACE_INCLUDE_DIRECTORIES "D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-src/include"
 )
 
 # Create imported target portaudio_static
 add_library(portaudio_static STATIC IMPORTED)
 
 set_target_properties(portaudio_static PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-src/include"
+  INTERFACE_INCLUDE_DIRECTORIES "D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-src/include"
 )
 
 # Import target "portaudio" for configuration "Debug"
 set_property(TARGET portaudio APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(portaudio PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-build/Debug/portaudio_x64.lib"
+  IMPORTED_IMPLIB_DEBUG "D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build/Debug/portaudio_x64.lib"
   IMPORTED_LINK_INTERFACE_LIBRARIES_DEBUG "winmm;dsound;ole32;uuid;ole32;uuid;setupapi;ole32;uuid"
-  IMPORTED_LOCATION_DEBUG "C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-build/Debug/portaudio_x64.dll"
+  IMPORTED_LOCATION_DEBUG "D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build/Debug/portaudio_x64.dll"
   )
 
 # Import target "portaudio_static" for configuration "Debug"
@@ -68,15 +68,15 @@ set_property(TARGET portaudio_static APPEND PROPERTY IMPORTED_CONFIGURATIONS DEB
 set_target_properties(portaudio_static PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "C"
   IMPORTED_LINK_INTERFACE_LIBRARIES_DEBUG "winmm;dsound;ole32;uuid;ole32;uuid;setupapi;ole32;uuid"
-  IMPORTED_LOCATION_DEBUG "C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-build/Debug/portaudio_static_x64.lib"
+  IMPORTED_LOCATION_DEBUG "D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build/Debug/portaudio_static_x64.lib"
   )
 
 # Import target "portaudio" for configuration "Release"
 set_property(TARGET portaudio APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(portaudio PROPERTIES
-  IMPORTED_IMPLIB_RELEASE "C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-build/Release/portaudio_x64.lib"
+  IMPORTED_IMPLIB_RELEASE "D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build/Release/portaudio_x64.lib"
   IMPORTED_LINK_INTERFACE_LIBRARIES_RELEASE "winmm;dsound;ole32;uuid;ole32;uuid;setupapi;ole32;uuid"
-  IMPORTED_LOCATION_RELEASE "C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-build/Release/portaudio_x64.dll"
+  IMPORTED_LOCATION_RELEASE "D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build/Release/portaudio_x64.dll"
   )
 
 # Import target "portaudio_static" for configuration "Release"
@@ -84,15 +84,15 @@ set_property(TARGET portaudio_static APPEND PROPERTY IMPORTED_CONFIGURATIONS REL
 set_target_properties(portaudio_static PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "C"
   IMPORTED_LINK_INTERFACE_LIBRARIES_RELEASE "winmm;dsound;ole32;uuid;ole32;uuid;setupapi;ole32;uuid"
-  IMPORTED_LOCATION_RELEASE "C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-build/Release/portaudio_static_x64.lib"
+  IMPORTED_LOCATION_RELEASE "D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build/Release/portaudio_static_x64.lib"
   )
 
 # Import target "portaudio" for configuration "MinSizeRel"
 set_property(TARGET portaudio APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(portaudio PROPERTIES
-  IMPORTED_IMPLIB_MINSIZEREL "C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-build/MinSizeRel/portaudio_x64.lib"
+  IMPORTED_IMPLIB_MINSIZEREL "D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build/MinSizeRel/portaudio_x64.lib"
   IMPORTED_LINK_INTERFACE_LIBRARIES_MINSIZEREL "winmm;dsound;ole32;uuid;ole32;uuid;setupapi;ole32;uuid"
-  IMPORTED_LOCATION_MINSIZEREL "C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-build/MinSizeRel/portaudio_x64.dll"
+  IMPORTED_LOCATION_MINSIZEREL "D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build/MinSizeRel/portaudio_x64.dll"
   )
 
 # Import target "portaudio_static" for configuration "MinSizeRel"
@@ -100,15 +100,15 @@ set_property(TARGET portaudio_static APPEND PROPERTY IMPORTED_CONFIGURATIONS MIN
 set_target_properties(portaudio_static PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "C"
   IMPORTED_LINK_INTERFACE_LIBRARIES_MINSIZEREL "winmm;dsound;ole32;uuid;ole32;uuid;setupapi;ole32;uuid"
-  IMPORTED_LOCATION_MINSIZEREL "C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-build/MinSizeRel/portaudio_static_x64.lib"
+  IMPORTED_LOCATION_MINSIZEREL "D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build/MinSizeRel/portaudio_static_x64.lib"
   )
 
 # Import target "portaudio" for configuration "RelWithDebInfo"
 set_property(TARGET portaudio APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(portaudio PROPERTIES
-  IMPORTED_IMPLIB_RELWITHDEBINFO "C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-build/RelWithDebInfo/portaudio_x64.lib"
+  IMPORTED_IMPLIB_RELWITHDEBINFO "D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build/RelWithDebInfo/portaudio_x64.lib"
   IMPORTED_LINK_INTERFACE_LIBRARIES_RELWITHDEBINFO "winmm;dsound;ole32;uuid;ole32;uuid;setupapi;ole32;uuid"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-build/RelWithDebInfo/portaudio_x64.dll"
+  IMPORTED_LOCATION_RELWITHDEBINFO "D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build/RelWithDebInfo/portaudio_x64.dll"
   )
 
 # Import target "portaudio_static" for configuration "RelWithDebInfo"
@@ -116,7 +116,7 @@ set_property(TARGET portaudio_static APPEND PROPERTY IMPORTED_CONFIGURATIONS REL
 set_target_properties(portaudio_static PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "C"
   IMPORTED_LINK_INTERFACE_LIBRARIES_RELWITHDEBINFO "winmm;dsound;ole32;uuid;ole32;uuid;setupapi;ole32;uuid"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-build/RelWithDebInfo/portaudio_static_x64.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build/RelWithDebInfo/portaudio_static_x64.lib"
   )
 
 # This file does not depend on other imported targets which have

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\hku\jaar2\CSD2c_2021\portaudio\butterworth\src\Biquad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\hku\jaar2\CSD2c_2021\portaudio\butterworth\src\Butterworth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\hku\jaar2\CSD2c_2021\portaudio\butterworth\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D4361077-5426-3846-B96C-8A59976FFBCF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

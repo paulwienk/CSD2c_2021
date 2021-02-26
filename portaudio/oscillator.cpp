@@ -22,6 +22,10 @@ float Oscillator::getSample() {
     return sample;
 }
 
+float Oscillator::getDelay() {
+    return delay;
+}
+
 
 void Oscillator::setFrequency(float frequency) {
     this->frequency = frequency;

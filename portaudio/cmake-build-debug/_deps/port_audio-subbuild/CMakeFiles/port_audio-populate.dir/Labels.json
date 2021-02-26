@@ -2,37 +2,37 @@
 	"sources" : 
 	[
 		{
-			"file" : "C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/port_audio-populate"
+			"file" : "D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/port_audio-populate"
 		},
 		{
-			"file" : "C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/6588d88c920ac1e37209317c744a892b/port_audio-populate.rule"
+			"file" : "D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/dd6d8ec51ab286b28c310a635f0d3819/port_audio-populate.rule"
 		},
 		{
-			"file" : "C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/ee92f6a812182471dd0cbde0238aa640/port_audio-populate-complete.rule"
+			"file" : "D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/13bfb13ba1f61885990931a1f8cecff6/port_audio-populate-complete.rule"
 		},
 		{
-			"file" : "C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/dcc365dc92611e895f4b46c9a9600864/port_audio-populate-install.rule"
+			"file" : "D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/b3432cea9289cfde4ae8dbf3073c8ebf/port_audio-populate-install.rule"
 		},
 		{
-			"file" : "C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/dcc365dc92611e895f4b46c9a9600864/port_audio-populate-mkdir.rule"
+			"file" : "D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/b3432cea9289cfde4ae8dbf3073c8ebf/port_audio-populate-mkdir.rule"
 		},
 		{
-			"file" : "C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/dcc365dc92611e895f4b46c9a9600864/port_audio-populate-download.rule"
+			"file" : "D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/b3432cea9289cfde4ae8dbf3073c8ebf/port_audio-populate-download.rule"
 		},
 		{
-			"file" : "C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/dcc365dc92611e895f4b46c9a9600864/port_audio-populate-update.rule"
+			"file" : "D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/b3432cea9289cfde4ae8dbf3073c8ebf/port_audio-populate-update.rule"
 		},
 		{
-			"file" : "C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/dcc365dc92611e895f4b46c9a9600864/port_audio-populate-patch.rule"
+			"file" : "D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/b3432cea9289cfde4ae8dbf3073c8ebf/port_audio-populate-patch.rule"
 		},
 		{
-			"file" : "C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/dcc365dc92611e895f4b46c9a9600864/port_audio-populate-configure.rule"
+			"file" : "D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/b3432cea9289cfde4ae8dbf3073c8ebf/port_audio-populate-configure.rule"
 		},
 		{
-			"file" : "C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/dcc365dc92611e895f4b46c9a9600864/port_audio-populate-build.rule"
+			"file" : "D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/b3432cea9289cfde4ae8dbf3073c8ebf/port_audio-populate-build.rule"
 		},
 		{
-			"file" : "C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/dcc365dc92611e895f4b46c9a9600864/port_audio-populate-test.rule"
+			"file" : "D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/b3432cea9289cfde4ae8dbf3073c8ebf/port_audio-populate-test.rule"
 		}
 	],
 	"target" : 

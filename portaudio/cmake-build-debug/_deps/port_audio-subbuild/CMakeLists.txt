@@ -12,8 +12,8 @@ project(port_audio-populate NONE)
 include(ExternalProject)
 ExternalProject_Add(port_audio-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/PortAudio/portaudio.git"
-                    SOURCE_DIR          "C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-src"
-                    BINARY_DIR          "C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-build"
+                    SOURCE_DIR          "D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-src"
+                    BINARY_DIR          "D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{E9F8C0BB-3B10-39ED-83DD-82F9BEE54AAC}</ProjectGuid>
+    <ProjectGuid>{BF32A5D9-0F30-3D07-858A-23B48D5D82F5}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -105,10 +105,10 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\CMakeFiles\8c0cea158a439533f81c5ecca932710a\uninstall.rule">
+    <CustomBuild Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\CMakeFiles\1550083dd6bf563e824baa32e28e7cb7\uninstall.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-build/cmake_uninstall.cmake
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build/cmake_uninstall.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -117,12 +117,12 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build\CMakeFiles\uninstall</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build\CMakeFiles\uninstall</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-build/cmake_uninstall.cmake
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build/cmake_uninstall.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -131,12 +131,12 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build\CMakeFiles\uninstall</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build\CMakeFiles\uninstall</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-build/cmake_uninstall.cmake
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build/cmake_uninstall.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -145,12 +145,12 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build\CMakeFiles\uninstall</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build\CMakeFiles\uninstall</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-build/cmake_uninstall.cmake
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build/cmake_uninstall.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -159,16 +159,16 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build\CMakeFiles\uninstall</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build\CMakeFiles\uninstall</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-src/CMakeLists.txt</Message>
+    <CustomBuild Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -SC:/Users/paulw/Desktop/portaudio -BC:/Users/paulw/Desktop/portaudio/cmake-build-debug --check-stamp-file C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-build/CMakeFiles/generate.stamp
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -SD:/hku/jaar2/CSD2c_2021/portaudio -BD:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug --check-stamp-file D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -176,12 +176,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckTypeSize.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\TestBigEndian.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\FindASIOSDK.cmake;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\cmake_uninstall.cmake.in;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\options_cmake.h.in;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\portaudio-2.0.pc.in;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\portaudioConfig.cmake.in;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\template_portaudio.def;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckTypeSize.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\TestBigEndian.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\WriteBasicConfigVersionFile.cmake;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\FindASIOSDK.cmake;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\cmake_uninstall.cmake.in;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\options_cmake.h.in;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\portaudio-2.0.pc.in;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\portaudioConfig.cmake.in;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\template_portaudio.def;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -SC:/Users/paulw/Desktop/portaudio -BC:/Users/paulw/Desktop/portaudio/cmake-build-debug --check-stamp-file C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-build/CMakeFiles/generate.stamp
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -SD:/hku/jaar2/CSD2c_2021/portaudio -BD:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug --check-stamp-file D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -189,12 +189,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckTypeSize.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\TestBigEndian.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\FindASIOSDK.cmake;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\cmake_uninstall.cmake.in;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\options_cmake.h.in;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\portaudio-2.0.pc.in;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\portaudioConfig.cmake.in;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\template_portaudio.def;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckTypeSize.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\TestBigEndian.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\WriteBasicConfigVersionFile.cmake;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\FindASIOSDK.cmake;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\cmake_uninstall.cmake.in;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\options_cmake.h.in;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\portaudio-2.0.pc.in;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\portaudioConfig.cmake.in;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\template_portaudio.def;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -SC:/Users/paulw/Desktop/portaudio -BC:/Users/paulw/Desktop/portaudio/cmake-build-debug --check-stamp-file C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-build/CMakeFiles/generate.stamp
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -SD:/hku/jaar2/CSD2c_2021/portaudio -BD:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug --check-stamp-file D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -202,12 +202,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckTypeSize.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\TestBigEndian.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\FindASIOSDK.cmake;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\cmake_uninstall.cmake.in;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\options_cmake.h.in;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\portaudio-2.0.pc.in;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\portaudioConfig.cmake.in;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\template_portaudio.def;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckTypeSize.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\TestBigEndian.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\WriteBasicConfigVersionFile.cmake;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\FindASIOSDK.cmake;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\cmake_uninstall.cmake.in;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\options_cmake.h.in;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\portaudio-2.0.pc.in;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\portaudioConfig.cmake.in;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\template_portaudio.def;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -SC:/Users/paulw/Desktop/portaudio -BC:/Users/paulw/Desktop/portaudio/cmake-build-debug --check-stamp-file C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-build/CMakeFiles/generate.stamp
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -SD:/hku/jaar2/CSD2c_2021/portaudio -BD:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug --check-stamp-file D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -215,17 +215,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckTypeSize.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\TestBigEndian.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\FindASIOSDK.cmake;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\cmake_uninstall.cmake.in;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\options_cmake.h.in;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\portaudio-2.0.pc.in;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\portaudioConfig.cmake.in;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\template_portaudio.def;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckIncludeFile.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CheckTypeSize.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\TestBigEndian.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\WriteBasicConfigVersionFile.cmake;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\FindASIOSDK.cmake;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\cmake_uninstall.cmake.in;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\options_cmake.h.in;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\portaudio-2.0.pc.in;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\portaudioConfig.cmake.in;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\cmake_support\template_portaudio.def;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build\CMakeFiles\uninstall" />
+    <None Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build\CMakeFiles\uninstall" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\ZERO_CHECK.vcxproj">
-      <Project>{F438BF04-663B-31F5-9CF1-FEF45BFA3640}</Project>
+    <ProjectReference Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\ZERO_CHECK.vcxproj">
+      <Project>{298B34C3-3AA7-39B2-8A78-2F7CDCADB171}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

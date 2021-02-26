@@ -1,8 +1,8 @@
-if(NOT EXISTS "C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-build/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-build/install_manifest.txt")
-endif(NOT EXISTS "C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-build/install_manifest.txt")
+if(NOT EXISTS "D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build/install_manifest.txt")
+endif(NOT EXISTS "D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build/install_manifest.txt")
 
-file(READ "C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-build/install_manifest.txt" files)
+file(READ "D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach(file ${files})
   message(STATUS "Uninstalling $ENV{DESTDIR}${file}")

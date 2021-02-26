@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{0BD99357-A9D4-3F37-903C-1509153BE2F8}</ProjectGuid>
+    <ProjectGuid>{188EB846-F332-31CD-AF60-719037C965CB}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">test.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">test</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">test.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">test</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">test.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">test</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">test.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">test</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -104,10 +104,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -120,8 +120,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/paulw/Desktop/portaudio/cmake-build-debug/Debug/test.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/paulw/Desktop/portaudio/cmake-build-debug/Debug/test.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/Debug/test.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/Debug/test.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -130,7 +130,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -148,10 +148,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -164,8 +164,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/paulw/Desktop/portaudio/cmake-build-debug/Release/test.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/paulw/Desktop/portaudio/cmake-build-debug/Release/test.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/Release/test.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/Release/test.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -174,7 +174,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -192,10 +192,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -208,8 +208,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/paulw/Desktop/portaudio/cmake-build-debug/MinSizeRel/test.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/paulw/Desktop/portaudio/cmake-build-debug/MinSizeRel/test.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/MinSizeRel/test.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/MinSizeRel/test.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -218,7 +218,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -235,10 +235,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -251,8 +251,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/paulw/Desktop/portaudio/cmake-build-debug/RelWithDebInfo/test.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/paulw/Desktop/portaudio/cmake-build-debug/RelWithDebInfo/test.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/RelWithDebInfo/test.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/RelWithDebInfo/test.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -260,10 +260,10 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\paulw\Desktop\portaudio\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/paulw/Desktop/portaudio/CMakeLists.txt</Message>
+    <CustomBuild Include="D:\hku\jaar2\CSD2c_2021\portaudio\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/hku/jaar2/CSD2c_2021/portaudio/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -SC:/Users/paulw/Desktop/portaudio -BC:/Users/paulw/Desktop/portaudio/cmake-build-debug --check-stamp-file C:/Users/paulw/Desktop/portaudio/cmake-build-debug/CMakeFiles/generate.stamp
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -SD:/hku/jaar2/CSD2c_2021/portaudio -BD:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug --check-stamp-file D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -271,12 +271,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FetchContent.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\CMakeFiles\3.17.3\CMakeCCompiler.cmake;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\CMakeFiles\3.17.3\CMakeCXXCompiler.cmake;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\CMakeFiles\3.17.3\CMakeRCCompiler.cmake;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\CMakeFiles\3.17.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FetchContent.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\CMakeFiles\3.17.3\CMakeCCompiler.cmake;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\CMakeFiles\3.17.3\CMakeCXXCompiler.cmake;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\CMakeFiles\3.17.3\CMakeRCCompiler.cmake;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\CMakeFiles\3.17.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/paulw/Desktop/portaudio/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/hku/jaar2/CSD2c_2021/portaudio/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -SC:/Users/paulw/Desktop/portaudio -BC:/Users/paulw/Desktop/portaudio/cmake-build-debug --check-stamp-file C:/Users/paulw/Desktop/portaudio/cmake-build-debug/CMakeFiles/generate.stamp
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -SD:/hku/jaar2/CSD2c_2021/portaudio -BD:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug --check-stamp-file D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -284,12 +284,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FetchContent.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\CMakeFiles\3.17.3\CMakeCCompiler.cmake;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\CMakeFiles\3.17.3\CMakeCXXCompiler.cmake;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\CMakeFiles\3.17.3\CMakeRCCompiler.cmake;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\CMakeFiles\3.17.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FetchContent.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\CMakeFiles\3.17.3\CMakeCCompiler.cmake;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\CMakeFiles\3.17.3\CMakeCXXCompiler.cmake;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\CMakeFiles\3.17.3\CMakeRCCompiler.cmake;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\CMakeFiles\3.17.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/paulw/Desktop/portaudio/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/hku/jaar2/CSD2c_2021/portaudio/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -SC:/Users/paulw/Desktop/portaudio -BC:/Users/paulw/Desktop/portaudio/cmake-build-debug --check-stamp-file C:/Users/paulw/Desktop/portaudio/cmake-build-debug/CMakeFiles/generate.stamp
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -SD:/hku/jaar2/CSD2c_2021/portaudio -BD:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug --check-stamp-file D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -297,12 +297,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FetchContent.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\CMakeFiles\3.17.3\CMakeCCompiler.cmake;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\CMakeFiles\3.17.3\CMakeCXXCompiler.cmake;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\CMakeFiles\3.17.3\CMakeRCCompiler.cmake;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\CMakeFiles\3.17.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FetchContent.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\CMakeFiles\3.17.3\CMakeCCompiler.cmake;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\CMakeFiles\3.17.3\CMakeCXXCompiler.cmake;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\CMakeFiles\3.17.3\CMakeRCCompiler.cmake;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\CMakeFiles\3.17.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/paulw/Desktop/portaudio/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/hku/jaar2/CSD2c_2021/portaudio/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -SC:/Users/paulw/Desktop/portaudio -BC:/Users/paulw/Desktop/portaudio/cmake-build-debug --check-stamp-file C:/Users/paulw/Desktop/portaudio/cmake-build-debug/CMakeFiles/generate.stamp
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -SD:/hku/jaar2/CSD2c_2021/portaudio -BD:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug --check-stamp-file D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -310,28 +310,30 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FetchContent.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\CMakeFiles\3.17.3\CMakeCCompiler.cmake;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\CMakeFiles\3.17.3\CMakeCXXCompiler.cmake;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\CMakeFiles\3.17.3\CMakeRCCompiler.cmake;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\CMakeFiles\3.17.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeCInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeLanguageInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeRCInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Compiler\MSVC-C.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FetchContent.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FetchContent\CMakeLists.cmake.in;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\CMakeFiles\3.17.3\CMakeCCompiler.cmake;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\CMakeFiles\3.17.3\CMakeCXXCompiler.cmake;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\CMakeFiles\3.17.3\CMakeRCCompiler.cmake;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\CMakeFiles\3.17.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\paulw\Desktop\portaudio\main.cpp" />
-    <ClInclude Include="C:\Users\paulw\Desktop\portaudio\port_audio.h" />
-    <ClCompile Include="C:\Users\paulw\Desktop\portaudio\oscillator.cpp" />
-    <ClInclude Include="C:\Users\paulw\Desktop\portaudio\oscillator.h" />
-    <ClCompile Include="C:\Users\paulw\Desktop\portaudio\saw.cpp" />
-    <ClInclude Include="C:\Users\paulw\Desktop\portaudio\saw.h" />
+    <ClCompile Include="D:\hku\jaar2\CSD2c_2021\portaudio\main.cpp" />
+    <ClInclude Include="D:\hku\jaar2\CSD2c_2021\portaudio\port_audio.h" />
+    <ClCompile Include="D:\hku\jaar2\CSD2c_2021\portaudio\oscillator.cpp" />
+    <ClInclude Include="D:\hku\jaar2\CSD2c_2021\portaudio\oscillator.h" />
+    <ClCompile Include="D:\hku\jaar2\CSD2c_2021\portaudio\saw.cpp" />
+    <ClInclude Include="D:\hku\jaar2\CSD2c_2021\portaudio\saw.h" />
+    <ClCompile Include="D:\hku\jaar2\CSD2c_2021\portaudio\circBuffer.cpp" />
+    <ClInclude Include="D:\hku\jaar2\CSD2c_2021\portaudio\circBuffer.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\ZERO_CHECK.vcxproj">
-      <Project>{F438BF04-663B-31F5-9CF1-FEF45BFA3640}</Project>
+    <ProjectReference Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\ZERO_CHECK.vcxproj">
+      <Project>{298B34C3-3AA7-39B2-8A78-2F7CDCADB171}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build\portaudio_static.vcxproj">
-      <Project>{E300A21F-F990-33C7-A0FD-B2230AA6D748}</Project>
+    <ProjectReference Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build\portaudio_static.vcxproj">
+      <Project>{74AA82DC-A01D-3918-B955-00891BDAF86E}</Project>
       <Name>portaudio_static</Name>
     </ProjectReference>
   </ItemGroup>

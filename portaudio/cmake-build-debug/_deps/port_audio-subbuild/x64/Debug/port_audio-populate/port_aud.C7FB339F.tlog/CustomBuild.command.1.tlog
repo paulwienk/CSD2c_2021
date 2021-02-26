@@ -1,0 +1,162 @@
+^D:\HKU\JAAR2\CSD2C_2021\PORTAUDIO\CMAKE-BUILD-DEBUG\_DEPS\PORT_AUDIO-SUBBUILD\CMAKEFILES\B3432CEA9289CFDE4AE8DBF3073C8EBF\PORT_AUDIO-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/Debug/port_audio-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\HKU\JAAR2\CSD2C_2021\PORTAUDIO\CMAKE-BUILD-DEBUG\_DEPS\PORT_AUDIO-SUBBUILD\CMAKEFILES\B3432CEA9289CFDE4AE8DBF3073C8EBF\PORT_AUDIO-POPULATE-DOWNLOAD.RULE
+setlocal
+cd D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/tmp/port_audio-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/Debug/port_audio-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\HKU\JAAR2\CSD2C_2021\PORTAUDIO\CMAKE-BUILD-DEBUG\_DEPS\PORT_AUDIO-SUBBUILD\CMAKEFILES\B3432CEA9289CFDE4AE8DBF3073C8EBF\PORT_AUDIO-POPULATE-UPDATE.RULE
+setlocal
+cd D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/tmp/port_audio-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\HKU\JAAR2\CSD2C_2021\PORTAUDIO\CMAKE-BUILD-DEBUG\_DEPS\PORT_AUDIO-SUBBUILD\CMAKEFILES\B3432CEA9289CFDE4AE8DBF3073C8EBF\PORT_AUDIO-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/Debug/port_audio-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\HKU\JAAR2\CSD2C_2021\PORTAUDIO\CMAKE-BUILD-DEBUG\_DEPS\PORT_AUDIO-SUBBUILD\CMAKEFILES\B3432CEA9289CFDE4AE8DBF3073C8EBF\PORT_AUDIO-POPULATE-CONFIGURE.RULE
+setlocal
+cd D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/Debug/port_audio-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\HKU\JAAR2\CSD2C_2021\PORTAUDIO\CMAKE-BUILD-DEBUG\_DEPS\PORT_AUDIO-SUBBUILD\CMAKEFILES\B3432CEA9289CFDE4AE8DBF3073C8EBF\PORT_AUDIO-POPULATE-BUILD.RULE
+setlocal
+cd D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/Debug/port_audio-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\HKU\JAAR2\CSD2C_2021\PORTAUDIO\CMAKE-BUILD-DEBUG\_DEPS\PORT_AUDIO-SUBBUILD\CMAKEFILES\B3432CEA9289CFDE4AE8DBF3073C8EBF\PORT_AUDIO-POPULATE-INSTALL.RULE
+setlocal
+cd D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/Debug/port_audio-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\HKU\JAAR2\CSD2C_2021\PORTAUDIO\CMAKE-BUILD-DEBUG\_DEPS\PORT_AUDIO-SUBBUILD\CMAKEFILES\B3432CEA9289CFDE4AE8DBF3073C8EBF\PORT_AUDIO-POPULATE-TEST.RULE
+setlocal
+cd D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/Debug/port_audio-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\HKU\JAAR2\CSD2C_2021\PORTAUDIO\CMAKE-BUILD-DEBUG\_DEPS\PORT_AUDIO-SUBBUILD\CMAKEFILES\13BFB13BA1F61885990931A1F8CECFF6\PORT_AUDIO-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/Debug/port_audio-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/Debug/port_audio-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\HKU\JAAR2\CSD2C_2021\PORTAUDIO\CMAKE-BUILD-DEBUG\_DEPS\PORT_AUDIO-SUBBUILD\CMAKEFILES\DD6D8EC51AB286B28C310A635F0D3819\PORT_AUDIO-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\HKU\JAAR2\CSD2C_2021\PORTAUDIO\CMAKE-BUILD-DEBUG\_DEPS\PORT_AUDIO-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -SD:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild -BD:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild --check-stamp-file D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

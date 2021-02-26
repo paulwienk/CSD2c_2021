@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\CMakeFiles\e3a21c429edcb081273c8c37c68d4376\INSTALL_force.rule">
+    <CustomBuild Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\CMakeFiles\830e2160f34423dffb7175836f1afdbc\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{DF9BD81E-86E4-321E-8561-A55071F0A847}</UniqueIdentifier>
+      <UniqueIdentifier>{02308743-D9B3-3C1B-AE6D-EF7341F5266A}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{98DBF674-2BF4-391D-8DD8-14A4A05B75D5}</ProjectGuid>
+    <ProjectGuid>{C7FB339F-11D2-349B-AC7D-7BF785877487}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -105,24 +105,24 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\dcc365dc92611e895f4b46c9a9600864\port_audio-populate-mkdir.rule">
+    <CustomBuild Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\b3432cea9289cfde4ae8dbf3073c8ebf\port_audio-populate-mkdir.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'port_audio-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-src
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-build
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/tmp
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/tmp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-mkdir
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -131,25 +131,25 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Creating directories for 'port_audio-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-src
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-build
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/tmp
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/tmp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-mkdir
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -158,25 +158,25 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Creating directories for 'port_audio-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-src
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-build
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/tmp
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/tmp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-mkdir
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -185,25 +185,25 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Creating directories for 'port_audio-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-src
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-build
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-build
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/tmp
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/tmp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-mkdir
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-mkdir
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -212,21 +212,21 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\dcc365dc92611e895f4b46c9a9600864\port_audio-populate-download.rule">
+    <CustomBuild Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\b3432cea9289cfde4ae8dbf3073c8ebf\port_audio-populate-download.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (git clone) for 'port_audio-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps
+cd D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps
 if %errorlevel% neq 0 goto :cmEnd
-C:
+D:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/tmp/port_audio-populate-gitclone.cmake
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/tmp/port_audio-populate-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-download
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -234,18 +234,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\port_audio-populate-gitinfo.txt;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\port_audio-populate-gitinfo.txt;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing download step (git clone) for 'port_audio-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps
+cd D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps
 if %errorlevel% neq 0 goto :cmEnd
-C:
+D:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/tmp/port_audio-populate-gitclone.cmake
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/tmp/port_audio-populate-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-download
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -253,18 +253,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\port_audio-populate-gitinfo.txt;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\port_audio-populate-gitinfo.txt;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing download step (git clone) for 'port_audio-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps
+cd D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps
 if %errorlevel% neq 0 goto :cmEnd
-C:
+D:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/tmp/port_audio-populate-gitclone.cmake
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/tmp/port_audio-populate-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-download
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -272,18 +272,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\port_audio-populate-gitinfo.txt;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\port_audio-populate-gitinfo.txt;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing download step (git clone) for 'port_audio-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps
+cd D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps
 if %errorlevel% neq 0 goto :cmEnd
-C:
+D:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/tmp/port_audio-populate-gitclone.cmake
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/tmp/port_audio-populate-gitclone.cmake
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-download
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-download
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -291,20 +291,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\port_audio-populate-gitinfo.txt;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\port_audio-populate-gitinfo.txt;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\dcc365dc92611e895f4b46c9a9600864\port_audio-populate-update.rule">
+    <CustomBuild Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\b3432cea9289cfde4ae8dbf3073c8ebf\port_audio-populate-update.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing update step for 'port_audio-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src
+cd D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src
 if %errorlevel% neq 0 goto :cmEnd
-C:
+D:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/tmp/port_audio-populate-gitupdate.cmake
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/tmp/port_audio-populate-gitupdate.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -312,17 +312,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing update step for 'port_audio-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src
+cd D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src
 if %errorlevel% neq 0 goto :cmEnd
-C:
+D:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/tmp/port_audio-populate-gitupdate.cmake
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/tmp/port_audio-populate-gitupdate.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -330,17 +330,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing update step for 'port_audio-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src
+cd D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src
 if %errorlevel% neq 0 goto :cmEnd
-C:
+D:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/tmp/port_audio-populate-gitupdate.cmake
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/tmp/port_audio-populate-gitupdate.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -348,17 +348,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing update step for 'port_audio-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-src
+cd D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-src
 if %errorlevel% neq 0 goto :cmEnd
-C:
+D:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/tmp/port_audio-populate-gitupdate.cmake
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -P D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/tmp/port_audio-populate-gitupdate.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -366,19 +366,19 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\dcc365dc92611e895f4b46c9a9600864\port_audio-populate-patch.rule">
+    <CustomBuild Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\b3432cea9289cfde4ae8dbf3073c8ebf\port_audio-populate-patch.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'port_audio-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-patch
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -386,14 +386,14 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No patch step for 'port_audio-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
 "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-patch
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -401,14 +401,14 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No patch step for 'port_audio-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
 "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-patch
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -416,14 +416,14 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No patch step for 'port_audio-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
 "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-patch
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-patch
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -431,22 +431,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\dcc365dc92611e895f4b46c9a9600864\port_audio-populate-configure.rule">
+    <CustomBuild Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\b3432cea9289cfde4ae8dbf3073c8ebf\port_audio-populate-configure.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No configure step for 'port_audio-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build
+cd D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build
 if %errorlevel% neq 0 goto :cmEnd
-C:
+D:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-configure
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -454,19 +454,19 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\tmp\port_audio-populate-cfgcmd.txt;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-update;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\tmp\port_audio-populate-cfgcmd.txt;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-update;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No configure step for 'port_audio-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build
+cd D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build
 if %errorlevel% neq 0 goto :cmEnd
-C:
+D:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-configure
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -474,19 +474,19 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\tmp\port_audio-populate-cfgcmd.txt;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-update;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\tmp\port_audio-populate-cfgcmd.txt;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-update;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No configure step for 'port_audio-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build
+cd D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build
 if %errorlevel% neq 0 goto :cmEnd
-C:
+D:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-configure
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -494,19 +494,19 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\tmp\port_audio-populate-cfgcmd.txt;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-update;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\tmp\port_audio-populate-cfgcmd.txt;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-update;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No configure step for 'port_audio-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build
+cd D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build
 if %errorlevel% neq 0 goto :cmEnd
-C:
+D:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-configure
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-configure
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -514,23 +514,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\tmp\port_audio-populate-cfgcmd.txt;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-update;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\tmp\port_audio-populate-cfgcmd.txt;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-update;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\dcc365dc92611e895f4b46c9a9600864\port_audio-populate-build.rule">
+    <CustomBuild Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\b3432cea9289cfde4ae8dbf3073c8ebf\port_audio-populate-build.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No build step for 'port_audio-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build
+cd D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build
 if %errorlevel% neq 0 goto :cmEnd
-C:
+D:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-build
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -538,18 +538,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No build step for 'port_audio-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build
+cd D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build
 if %errorlevel% neq 0 goto :cmEnd
-C:
+D:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-build
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -557,18 +557,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No build step for 'port_audio-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build
+cd D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build
 if %errorlevel% neq 0 goto :cmEnd
-C:
+D:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-build
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -576,18 +576,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No build step for 'port_audio-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build
+cd D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build
 if %errorlevel% neq 0 goto :cmEnd
-C:
+D:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-build
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-build
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -595,22 +595,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\dcc365dc92611e895f4b46c9a9600864\port_audio-populate-install.rule">
+    <CustomBuild Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\b3432cea9289cfde4ae8dbf3073c8ebf\port_audio-populate-install.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No install step for 'port_audio-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build
+cd D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build
 if %errorlevel% neq 0 goto :cmEnd
-C:
+D:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-install
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -618,18 +618,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No install step for 'port_audio-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build
+cd D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build
 if %errorlevel% neq 0 goto :cmEnd
-C:
+D:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-install
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -637,18 +637,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No install step for 'port_audio-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build
+cd D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build
 if %errorlevel% neq 0 goto :cmEnd
-C:
+D:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-install
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -656,18 +656,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No install step for 'port_audio-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build
+cd D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build
 if %errorlevel% neq 0 goto :cmEnd
-C:
+D:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-install
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-install
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -675,22 +675,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\dcc365dc92611e895f4b46c9a9600864\port_audio-populate-test.rule">
+    <CustomBuild Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\b3432cea9289cfde4ae8dbf3073c8ebf\port_audio-populate-test.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No test step for 'port_audio-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build
+cd D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build
 if %errorlevel% neq 0 goto :cmEnd
-C:
+D:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-test
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -698,18 +698,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No test step for 'port_audio-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build
+cd D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build
 if %errorlevel% neq 0 goto :cmEnd
-C:
+D:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-test
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -717,18 +717,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No test step for 'port_audio-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build
+cd D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build
 if %errorlevel% neq 0 goto :cmEnd
-C:
+D:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-test
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -736,18 +736,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No test step for 'port_audio-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-build
+cd D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-build
 if %errorlevel% neq 0 goto :cmEnd
-C:
+D:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-test
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-test
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -755,20 +755,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\ee92f6a812182471dd0cbde0238aa640\port_audio-populate-complete.rule">
+    <CustomBuild Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\13bfb13ba1f61885990931a1f8cecff6\port_audio-populate-complete.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'port_audio-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/$(Configuration)
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/$(Configuration)/port_audio-populate-complete
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/$(Configuration)/port_audio-populate-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-done
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -776,17 +776,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-install;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-mkdir;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-download;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-update;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-patch;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-configure;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-build;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\$(Configuration)\port_audio-populate-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-install;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-mkdir;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-download;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-update;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-patch;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-configure;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-build;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\$(Configuration)\port_audio-populate-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Completed 'port_audio-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/$(Configuration)
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/$(Configuration)/port_audio-populate-complete
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/$(Configuration)/port_audio-populate-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-done
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -794,17 +794,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-install;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-mkdir;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-download;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-update;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-patch;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-configure;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-build;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\$(Configuration)\port_audio-populate-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-install;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-mkdir;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-download;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-update;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-patch;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-configure;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-build;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\$(Configuration)\port_audio-populate-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Completed 'port_audio-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/$(Configuration)
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/$(Configuration)/port_audio-populate-complete
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/$(Configuration)/port_audio-populate-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-done
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -812,17 +812,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-install;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-mkdir;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-download;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-update;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-patch;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-configure;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-build;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\$(Configuration)\port_audio-populate-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-install;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-mkdir;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-download;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-update;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-patch;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-configure;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-build;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\$(Configuration)\port_audio-populate-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Completed 'port_audio-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/$(Configuration)
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E make_directory D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/$(Configuration)
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/$(Configuration)/port_audio-populate-complete
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/$(Configuration)/port_audio-populate-complete
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-done
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E touch D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/$(Configuration)/port_audio-populate-done
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -830,14 +830,14 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-install;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-mkdir;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-download;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-update;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-patch;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-configure;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-build;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\$(Configuration)\port_audio-populate-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-install;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-mkdir;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-download;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-update;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-patch;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-configure;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-build;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\src\port_audio-populate-stamp\$(Configuration)\port_audio-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\$(Configuration)\port_audio-populate-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\6588d88c920ac1e37209317c744a892b\port_audio-populate.rule">
+    <CustomBuild Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\dd6d8ec51ab286b28c310a635f0d3819\port_audio-populate.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 :cmEnd
@@ -846,8 +846,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\$(Configuration)\port_audio-populate-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\port_audio-populate</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\$(Configuration)\port_audio-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\port_audio-populate</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
@@ -858,8 +858,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\$(Configuration)\port_audio-populate-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\port_audio-populate</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\$(Configuration)\port_audio-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\port_audio-populate</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
@@ -870,8 +870,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\$(Configuration)\port_audio-populate-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\port_audio-populate</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\$(Configuration)\port_audio-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\port_audio-populate</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
@@ -882,17 +882,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\$(Configuration)\port_audio-populate-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\port_audio-populate</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\$(Configuration)\port_audio-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\port_audio-populate</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeLists.txt</Message>
+    <CustomBuild Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -SC:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild -BC:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild --check-stamp-file C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/generate.stamp
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -SD:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild -BD:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild --check-stamp-file D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -900,12 +900,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\ExternalProject.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindGit.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\RepositoryInfo.txt.in;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\3.17.3\CMakeSystem.cmake;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\tmp\port_audio-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\ExternalProject.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindGit.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\RepositoryInfo.txt.in;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\3.17.3\CMakeSystem.cmake;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\tmp\port_audio-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -SC:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild -BC:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild --check-stamp-file C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/generate.stamp
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -SD:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild -BD:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild --check-stamp-file D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -913,12 +913,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\ExternalProject.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindGit.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\RepositoryInfo.txt.in;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\3.17.3\CMakeSystem.cmake;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\tmp\port_audio-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\ExternalProject.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindGit.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\RepositoryInfo.txt.in;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\3.17.3\CMakeSystem.cmake;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\tmp\port_audio-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -SC:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild -BC:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild --check-stamp-file C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/generate.stamp
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -SD:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild -BD:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild --check-stamp-file D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -926,12 +926,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\ExternalProject.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindGit.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\RepositoryInfo.txt.in;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\3.17.3\CMakeSystem.cmake;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\tmp\port_audio-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\ExternalProject.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindGit.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\RepositoryInfo.txt.in;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\3.17.3\CMakeSystem.cmake;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\tmp\port_audio-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -SC:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild -BC:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild --check-stamp-file C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/generate.stamp
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -SD:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild -BD:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild --check-stamp-file D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -939,17 +939,17 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\ExternalProject.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindGit.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\RepositoryInfo.txt.in;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\3.17.3\CMakeSystem.cmake;C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\tmp\port_audio-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeGenericSystem.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\ExternalProject.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindGit.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\FindPackageMessage.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\Windows.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\Platform\WindowsPaths.cmake;C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\share\cmake-3.17\Modules\RepositoryInfo.txt.in;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\3.17.3\CMakeSystem.cmake;D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\port_audio-populate-prefix\tmp\port_audio-populate-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\port_audio-populate" />
+    <None Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\CMakeFiles\port_audio-populate" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\paulw\Desktop\portaudio\cmake-build-debug\_deps\port_audio-subbuild\ZERO_CHECK.vcxproj">
-      <Project>{E58FCB1F-762A-33F2-9ED9-B21F39031B35}</Project>
+    <ProjectReference Include="D:\hku\jaar2\CSD2c_2021\portaudio\cmake-build-debug\_deps\port_audio-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{89BC7A1A-4E8F-3A54-9019-27799FDF78D6}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
