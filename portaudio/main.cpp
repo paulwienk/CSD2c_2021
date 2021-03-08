@@ -1,6 +1,7 @@
 
 // PortAudio API wrapper by Wouter Ensink
 
+#include <cmath>
 #include <random>
 #include <iostream>
 #include <string>
@@ -8,6 +9,47 @@
 #include "saw.h"
 #include "circBuffer.h"
 
+float modulator(float input) {
+    input -= 0.5;
+    input *= 0.5;
+
+    return std::cos(input);
+
+}
+
+class Pitcher {
+public:
+
+    Pitcher() = default;
+
+    float process(float input) {
+        circBuffer1.write(input);
+        circBuffer2.write(input);
+
+        saw.tick();
+        auto mod = saw.getSample();
+
+        circBuffer1.setDistanceRW(mod * 4410);
+        circBuffer2.setDistanceRW(std::fmod(mod + 0.5, 1) * 4410);
+
+        auto sample1 = circBuffer1.read() * modulator(mod);
+        auto sample2 = circBuffer2.read() * modulator(mod + 0.5);
+
+        circBuffer1.tick();
+        circBuffer2.tick();
+
+
+        return sample1 + sample2;
+
+
+    }
+
+    Saw saw{30, 44100};
+    CircBuffer circBuffer1{44100};
+    CircBuffer circBuffer2{44100};
+
+
+};
 
 class NoiseTestCallback : public AudioIODeviceCallback
 {
@@ -16,7 +58,6 @@ public:
     void prepareToPlay (int sampleRate, int blockSize) override
     {
         std::cout << "starting callback\n";
-        saw.setSampleRate(sampleRate);
 
     }
 
@@ -25,15 +66,13 @@ public:
     {
         for (auto sample = 0; sample < numSamples; ++sample)
         {
-            circBufferL.setDistanceRW((saw.getSample() * 4410));
-            circBufferR.setDistanceRW((saw.getSample() * 4410));
-            circBufferL.write(input[sample * 2]);
-            circBufferR.write(input[sample * 2 + 1]);
-            circBufferL.tick();
-            circBufferR.tick();
-            output[sample * 2] = circBufferL.read();
-            output[sample * 2 + 1] = circBufferR.read();
-            saw.tick();
+            auto left = input[sample * numChannels];
+            auto right = input[sample * numChannels + 1];
+            auto in = (left + right) / 2;
+            auto out = pitcher.process(in);
+
+            output[sample * numChannels] = out;
+            output[sample * numChannels + 1] = out;
         }
     }
     
@@ -43,9 +82,7 @@ public:
     }
 
 
-    Saw saw{30, 44100};
-    CircBuffer circBufferL{44100};
-    CircBuffer circBufferR{44100};
+    Pitcher pitcher;
 
 };
 
@@ -55,6 +92,7 @@ auto getNumericInput() {
     std::getline(std::cin, ans);
     return std::stod(ans);
 }
+
 
 
 // ========================================================================================
@@ -72,7 +110,7 @@ int main()
         portAudio.setup (sampleRate, blockSize);
     
         while (true)
-            callback.saw.setFrequency(getNumericInput());
+            callback.pitcher.saw.setFrequency(getNumericInput());
 
 
         portAudio.teardown();

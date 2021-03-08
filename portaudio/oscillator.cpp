@@ -23,6 +23,7 @@ float Oscillator::getSample() {
     return sample;
 }
 
+
 void Oscillator::setFrequency(float frequency) {
     this->frequency = frequency;
     // phaseIncrement changes based on the new frequency
