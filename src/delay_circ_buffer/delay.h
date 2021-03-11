@@ -18,13 +18,13 @@ public:
   // getters and setters
   void setNumSamplesDelay(int numSamplesDelay);
   int getNumSamplesDelay();
-  // void setFeedback(float feedback);
+  void setFeedback(float feedback);
   void setDelayTime(float delayLineTime);
 
 private:
   // has-a class
   DelayLine delayLine;
-  
+
   // variables
   uint size;
   uint frames;

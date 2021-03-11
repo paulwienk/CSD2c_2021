@@ -4,8 +4,8 @@
 #include <cstring>
 
 // constructors and destructor
-Reverse::Reverse(uint size, float samplerate, float feedback = 0.5)
-: m_size(size),  m_readH(0), m_writeH(0), samplerate(samplerate), feedback(feedback)
+Reverse::Reverse(uint size, float samplerate)
+: m_size(size),  m_readH(size), m_writeH(0), samplerate(samplerate)
 {
 	allocateBuffer();
 }
@@ -42,28 +42,22 @@ void Reverse::setDistanceRW(uint distanceRW)
   // store new distance between R & W heads and update rhead position
 	m_distanceRW = distanceRW;
   m_readH = m_writeH - m_distanceRW + m_size;
-  wrapH(m_readH);
+  wrapReadH(m_readH);
 }
 
 uint Reverse::getDistanceRW() {
   return m_distanceRW;
 }
 
-void Reverse::setFeedback(float f){
-	if((f >= 0) && (f <= 0.95)){
-		this->feedback = f;
-	}
-}
+void Reverse::process(float* inBuf, float* outBuf, uint frames){
+	// write input in buffer
+	write(inBuf[frames]);
 
-void Reverse::setReverseTime(float reverseTime){
-	if((reverseTime >= 0) && (reverseTime < m_size)){
-		this->reverseTime = reverseTime;
-		int numSamplesReverse = samplerate * reverseTime;
-		setDistanceRW(numSamplesReverse);
-	}
-	else {
-		std::cout << "Sorry, this is not the correct value. I need an integer between 0 and " << m_size << "\n";
-	}
+  // read delayed output
+  outBuf[frames] = read();
+
+  // update reverse --> next sample
+  tick();
 }
 
 // logging methods

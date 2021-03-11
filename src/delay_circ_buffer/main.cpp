@@ -4,6 +4,7 @@
 #include "math.h"
 #include "delayLine.h"
 #include "delay.h"
+#include "reverse.h"
 
 /*
 TODO:
@@ -42,20 +43,23 @@ int main(int argc,char **argv)
   if(argc >= 2) delayTimeSec = (float) atof(argv[1]);
   std::cout <<  "\nDelay time in seconds: " << delayTimeSec << "\n";
 
-  // transform delay time in seconds to delay time in number of samples
+  // transform delay inBuf[frames]time in seconds to delay time in number of samples
   unsigned int numSamplesDelay = samplerate * delayTimeSec;
   unsigned int bufferSize = numSamplesDelay * 2;
   std::cout << "\ninput is delay by " << numSamplesDelay << " number of samples\n";
 
   // instantiate delay, 2x larger then delay time and set feedback/delay
-  Delay delay(bufferSize, samplerate, numSamplesDelay, 0.7);
+  Delay delay(bufferSize, numSamplesDelay, samplerate, 0.7);
+
+  Reverse reverse(bufferSize, samplerate);
 
   //assign a function to the JackModule::onProces
-  jack.onProcess = [&delay](float *inBuf, float *outBuf, unsigned int nframes) {
+  jack.onProcess = [&delay, &reverse](float *inBuf, float *outBuf, unsigned int nframes) {
 
     for(unsigned int i = 0; i < nframes; i++) {
       // write input to delay
-      delay.proces(inBuf, outBuf, nframes);
+      // delay.proces(inBuf, outBuf, i);
+      reverse.process(inBuf, outBuf, i);
     }
     return 0;
   };

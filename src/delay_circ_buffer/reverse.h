@@ -8,7 +8,7 @@ public:
 	 * size: the number of samples in the buffer
 	 */
 
-	Reverse( uint size, float samplerate, float feedback);
+	Reverse( uint size, float samplerate);
 	~Reverse();
 
 	void resetSize(uint size);
@@ -16,11 +16,10 @@ public:
 	// setter and getter for the distance between read and write head
 	void setDistanceRW(uint distanceRW);
   uint getDistanceRW();
-	void setFeedback(float f);
-	void setReverseTime(float reverseTime);
+
 
 	// write and read values at write / read head
-	inline void write(float val) { m_buffer[m_writeH] = val + read() * feedback;}
+	inline void write(float val) { m_buffer[m_writeH] = val + read(); }
 	inline float read() { return m_buffer[m_readH]; }
 
   // method to set a step in time --> move to next sample
@@ -28,6 +27,9 @@ public:
     incrWriteH();
     incrReadH();
   }
+
+	// process method
+	void process(float* inBuf, float* outBuf, uint frames);
 
 	// debug methods
 	void logRWPos();
@@ -40,17 +42,21 @@ private:
   // increase write and read heads with 1 or more samples and wrap if necessary
 	inline void incrWriteH() {
 		m_writeH++;
-		wrapH(m_writeH);
+		wrapWriteH(m_writeH);
 	}
 
 	inline void incrReadH() {
-		m_readH++;
-		wrapH(m_readH);
+		m_readH--;
+		wrapReadH(m_readH);
 	}
 
-  // wrap a head if necessary
-  inline void wrapH(uint& head) {
+	// wrap a head if necessary
+  inline void wrapWriteH(uint& head) {
     if (head >= m_size) head -= m_size;
+  }
+
+	inline void wrapReadH(uint& head) {
+    if (head == 0) head += m_size - 1;
   }
 
   // allocate and release methods --> are needed when altering the buffer size
@@ -69,6 +75,4 @@ private:
 
 	// variables
 	float samplerate;
-	float feedback;
-	float reverseTime;
 };
