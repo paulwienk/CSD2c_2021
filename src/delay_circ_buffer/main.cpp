@@ -2,16 +2,21 @@
 #include <thread>
 #include "jack_module.h"
 #include "math.h"
+#include "delayLine.h"
 #include "delay.h"
 
-
 /*
- * NOTE: jack2 needs to be installed
- * jackd invokes the JACK audio server daemon
- * https://github.com/jackaudio/jackaudio.github.com/wiki/jackd(1)
- * on mac, you can start the jack audio server daemon in the terminal:
- * jackd -d coreaudio
- */
+TODO:
+Add liniear interpolation
+reverse block - reverse_delay_length
+Input 1 fills current block
+When filled copy current block to reading block
+Output 1 starts at the end of reading block going backwards
+Maximum block length is 0.5 * total length of circular buffer
+
+Write gain function - page 2
+file:///home/steven/Downloads/A%20Pitch%20Shifting%20Reverse%20Echo%20Audio%20Effect.pdf
+*/
 
 // 10 seconds if samplerate = 44100inBuf[i]
 #define MAX_DELAY_SIZE 441000
@@ -43,23 +48,14 @@ int main(int argc,char **argv)
   std::cout << "\ninput is delay by " << numSamplesDelay << " number of samples\n";
 
   // instantiate delay, 2x larger then delay time and set feedback/delay
-  Delay delay(bufferSize, samplerate, 0.7);
-  delay.setDistanceRW(numSamplesDelay);
-  delay.logAllSettings();
+  Delay delay(bufferSize, samplerate, numSamplesDelay, 0.7);
 
   //assign a function to the JackModule::onProces
-  jack.onProcess = [&delay](jack_default_audio_sample_t *inBuf,
-     jack_default_audio_sample_t *outBuf, jack_nframes_t nframes) {
+  jack.onProcess = [&delay](float *inBuf, float *outBuf, unsigned int nframes) {
 
     for(unsigned int i = 0; i < nframes; i++) {
       // write input to delay
-      delay.write(inBuf[i]);
-      // read delayed output
-      outBuf[i] = delay.read() * 0.8;
-      // update delay --> next sample
-      delay.tick();
-      // proces input and output for the delay
-
+      delay.proces(inBuf, outBuf, nframes);
     }
     return 0;
   };
@@ -81,14 +77,16 @@ int main(int argc,char **argv)
         running = false;
         jack.end();
         break;
-      case 'f':
-        float newFeedback;
-        std::cin >> newFeedback;
-        delay.setFeedback(newFeedback);
-      case 'd':
-        float newDelayTime;
-        std::cin >> newDelayTime;
-        delay.setDelayTime(newDelayTime);
+      // case 'f':
+      //   float newFeedback;
+      //   std::cin >> newFeedback;
+      //   delay.setFeedback(newFeedback);
+      //   break;
+      // case 'd':
+      //   float newDelayTime;
+      //   std::cin >> newDelayTime;
+      //   delay.setDelayTime(newDelayTime);
+      //   break;
     }
   }
 
