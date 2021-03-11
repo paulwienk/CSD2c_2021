@@ -6,7 +6,7 @@
 Delay::Delay(uint size, int numSamplesDelay, float samplerate, float feedback = 0.5) :
 delayLine(size), size(size), samplerate(samplerate), feedback(feedback)
 {
-  delayLine.setDistanceRW(1);
+  delayLine.setDistanceRW(numSamplesDelay);
 }
 
 Delay::~Delay(){
@@ -18,11 +18,10 @@ Delay::~Delay(){
 // proces input and output and tick to next sample
 void Delay::proces(float* inBuf, float* outBuf, uint frames){
   // write input to delay
-  delayLine.write(inBuf[frames]);
+  delayLine.write(inBuf[frames] + delayLine.read() * feedback);
 
   // read delayed output
   outBuf[frames] = delayLine.read() * 0.5;
-  // std::cout << outBuf[frames];
 
   // update delay --> next sample
   delayLine.tick();
@@ -55,5 +54,5 @@ void Delay::setDelayTime(float delayLineTime){
 }
 
 void Delay::log(){
-  delayLine.logSize();
+  delayLine.logAllSettings();
 }

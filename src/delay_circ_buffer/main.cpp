@@ -21,7 +21,8 @@ file:///home/steven/Downloads/A%20Pitch%20Shifting%20Reverse%20Echo%20Audio%20Ef
 
 // 10 seconds if samplerate = 44100inBuf[i]
 #define MAX_DELAY_SIZE 441000
-#define DELAY_TIME_SEC 9.0f
+#define DELAY_TIME_SEC 4.0f
+#define REVERSE_TIME_SEC 2.0f
 
 #define PI_2 6.28318530717959
 
@@ -40,26 +41,29 @@ int main(int argc,char **argv)
 
   // retrieve either default or console line argument delaytime
   float delayTimeSec = DELAY_TIME_SEC;
+  float reverseTimeSec = REVERSE_TIME_SEC;
   if(argc >= 2) delayTimeSec = (float) atof(argv[1]);
   std::cout <<  "\nDelay time in seconds: " << delayTimeSec << "\n";
 
   // transform delay inBuf[frames]time in seconds to delay time in number of samples
   unsigned int numSamplesDelay = samplerate * delayTimeSec;
-  unsigned int bufferSize = numSamplesDelay * 2;
-  std::cout << "\ninput is delay by " << numSamplesDelay << " number of samples\n";
+  unsigned int bufferSizeDelay = numSamplesDelay * 2;
+
+  unsigned int numSamplesReverse = samplerate * reverseTimeSec;
+  unsigned int bufferSizeReverse = numSamplesReverse * 2;
 
   // instantiate delay, 2x larger then delay time and set feedback/delay
-  Delay delay(bufferSize, numSamplesDelay, samplerate, 0.7);
-
-  Reverse reverse(bufferSize, samplerate);
+  Delay delay(bufferSizeDelay, 20000, samplerate, 0.7);
+  delay.log();
+  Reverse reverse(bufferSizeReverse, samplerate);
 
   //assign a function to the JackModule::onProces
-  jack.onProcess = [&delay, &reverse](float *inBuf, float *outBuf, unsigned int nframes) {
+  jack.onProcess = [&reverse, &delay](float *inBuf, float *outBuf, unsigned int nframes) {
 
     for(unsigned int i = 0; i < nframes; i++) {
-      // write input to delay
-      delay.proces(inBuf, outBuf, i);
+      // process reversing input
       reverse.process(inBuf, outBuf, i);
+      delay.proces(outBuf, outBuf, i);
     }
     return 0;
   };
@@ -70,7 +74,7 @@ int main(int argc,char **argv)
   std::cout << "\n\nFunctionalities:"
             << "Press 'q' when you want to quit the program.\n"
             << "Press 'f' when you want to set the feedback (float value between 0 and 0.95).\n"
-            << "Press 'd' when you want to set the delayTime (float value between 0 and " << (bufferSize/samplerate)/2 << ").\n";
+            << "Press 'd' when you want to set the delayTime (float value between 0 and " << (bufferSizeDelay/samplerate)/2 << ").\n";
 
 
   while (running)

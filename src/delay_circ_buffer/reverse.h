@@ -19,7 +19,7 @@ public:
 
 
 	// write and read values at write / read head
-	inline void write(float val) { m_buffer[m_writeH] = val + read(); }
+	inline void write(float val) { m_buffer[m_writeH] = val; }
 	inline float read() { return m_buffer[m_readH]; }
 
   // method to set a step in time --> move to next sample
