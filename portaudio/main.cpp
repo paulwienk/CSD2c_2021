@@ -9,11 +9,14 @@
 #include "saw.h"
 #include "circBuffer.h"
 
+constexpr double twoPi = 3.14159265359 * 2;
+
+
 float modulator(float input) {
     input -= 0.5;
     input *= 0.5;
 
-    return std::cos(input);
+    return (float) std::cos(input * twoPi);
 
 }
 
@@ -23,17 +26,15 @@ public:
     Pitcher() = default;
 
     float process(float input) {
-        circBuffer1.write(input);
-        circBuffer2.write(input);
-
         saw.tick();
         auto mod = saw.getSample();
 
         circBuffer1.setDistanceRW(mod * 4410);
         circBuffer2.setDistanceRW(std::fmod(mod + 0.5, 1) * 4410);
-
+        circBuffer1.write(input);
+        circBuffer2.write(input);
         auto sample1 = circBuffer1.read() * modulator(mod);
-        auto sample2 = circBuffer2.read() * modulator(mod + 0.5);
+        auto sample2 = circBuffer2.read() * modulator(std::fmod(mod + 0.5, 1));
 
         circBuffer1.tick();
         circBuffer2.tick();
@@ -44,10 +45,9 @@ public:
 
     }
 
-    Saw saw{30, 44100};
+    Saw saw{4, 44100};
     CircBuffer circBuffer1{44100};
     CircBuffer circBuffer2{44100};
-
 
 };
 
@@ -61,14 +61,13 @@ public:
 
     }
 
-    // change in distance = change in pitch
     void process (float* input, float* output, int numSamples, int numChannels) override
     {
         for (auto sample = 0; sample < numSamples; ++sample)
         {
             auto left = input[sample * numChannels];
             auto right = input[sample * numChannels + 1];
-            auto in = (left + right) / 2;
+            auto in = left; //(left + right) / 2;
             auto out = pitcher.process(in);
 
             output[sample * numChannels] = out;

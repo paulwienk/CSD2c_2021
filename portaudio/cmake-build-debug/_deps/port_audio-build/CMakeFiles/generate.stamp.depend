@@ -1,13 +1,17 @@
 # CMake generation dependency list for this directory.
 C:/Program Files/JetBrains/CLion 2020.3/bin/cmake/win/share/cmake-3.17/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
 C:/Program Files/JetBrains/CLion 2020.3/bin/cmake/win/share/cmake-3.17/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/JetBrains/CLion 2020.3/bin/cmake/win/share/cmake-3.17/Modules/CheckIncludeFile.c.in
 C:/Program Files/JetBrains/CLion 2020.3/bin/cmake/win/share/cmake-3.17/Modules/CheckIncludeFile.cmake
 C:/Program Files/JetBrains/CLion 2020.3/bin/cmake/win/share/cmake-3.17/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/JetBrains/CLion 2020.3/bin/cmake/win/share/cmake-3.17/Modules/CheckTypeSize.c.in
 C:/Program Files/JetBrains/CLion 2020.3/bin/cmake/win/share/cmake-3.17/Modules/CheckTypeSize.cmake
 C:/Program Files/JetBrains/CLion 2020.3/bin/cmake/win/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake
 C:/Program Files/JetBrains/CLion 2020.3/bin/cmake/win/share/cmake-3.17/Modules/FindPackageMessage.cmake
 C:/Program Files/JetBrains/CLion 2020.3/bin/cmake/win/share/cmake-3.17/Modules/TestBigEndian.cmake
+C:/Program Files/JetBrains/CLion 2020.3/bin/cmake/win/share/cmake-3.17/Modules/TestEndianess.c.in
 C:/Program Files/JetBrains/CLion 2020.3/bin/cmake/win/share/cmake-3.17/Modules/WriteBasicConfigVersionFile.cmake
+D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
 D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-src/CMakeLists.txt
 D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-src/cmake_support/FindASIOSDK.cmake
 D:/hku/jaar2/CSD2c_2021/portaudio/cmake-build-debug/_deps/port_audio-src/cmake_support/cmake_uninstall.cmake.in
