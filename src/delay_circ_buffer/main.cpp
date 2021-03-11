@@ -58,7 +58,7 @@ int main(int argc,char **argv)
 
     for(unsigned int i = 0; i < nframes; i++) {
       // write input to delay
-      // delay.proces(inBuf, outBuf, i);
+      delay.proces(inBuf, outBuf, i);
       reverse.process(inBuf, outBuf, i);
     }
     return 0;
