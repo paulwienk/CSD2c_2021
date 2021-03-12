@@ -31,6 +31,9 @@ public:
 	// process method
 	void process(float* inBuf, float* outBuf, uint frames);
 
+	// float distanceRW();
+	// void gain(distanceRW, m_size);
+
 	// debug methods
 	void logRWPos();
   void logDistanceRW();
@@ -75,4 +78,6 @@ private:
 
 	// variables
 	float samplerate;
+	bool bufferFilled = false;
+	uint count = 0;
 };

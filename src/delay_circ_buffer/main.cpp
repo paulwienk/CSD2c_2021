@@ -8,13 +8,6 @@
 
 /*
 TODO:
-Add liniear interpolation
-reverse block - reverse_delay_length
-Input 1 fills current block
-When filled copy current block to reading block
-Output 1 starts at the end of reading block going backwards
-Maximum block length is 0.5 * total length of circular buffer
-
 Write gain function - page 2
 file:///home/steven/Downloads/A%20Pitch%20Shifting%20Reverse%20Echo%20Audio%20Effect.pdf
 */
@@ -53,7 +46,7 @@ int main(int argc,char **argv)
   unsigned int bufferSizeReverse = numSamplesReverse * 2;
 
   // instantiate delay, 2x larger then delay time and set feedback/delay
-  Delay delay(bufferSizeDelay, 20000, samplerate, 0.7);
+  Delay delay(bufferSizeDelay, numSamplesDelay, samplerate, 0.7);
   delay.log();
   Reverse reverse(bufferSizeReverse, samplerate);
 
@@ -85,16 +78,16 @@ int main(int argc,char **argv)
         running = false;
         jack.end();
         break;
-      // case 'f':
-      //   float newFeedback;
-      //   std::cin >> newFeedback;
-      //   delay.setFeedback(newFeedback);
-      //   break;
-      // case 'd':
-      //   float newDelayTime;
-      //   std::cin >> newDelayTime;
-      //   delay.setDelayTime(newDelayTime);
-      //   break;
+      case 'f':
+        float newFeedback;
+        std::cin >> newFeedback;
+        delay.setFeedback(newFeedback);
+        break;
+      case 'd':
+        float newDelayTime;
+        std::cin >> newDelayTime;
+        delay.setDelayTime(newDelayTime);
+        break;
     }
   }
 

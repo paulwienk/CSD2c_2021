@@ -46,19 +46,24 @@ void Reverse::setDistanceRW(uint distanceRW)
 }
 
 uint Reverse::getDistanceRW() {
-  return m_distanceRW;
+	m_distanceRW = m_writeH - m_readH;
+	return m_distanceRW;
 }
 
 void Reverse::process(float* inBuf, float* outBuf, uint frames){
 	// write input in buffer
 	write(inBuf[frames]);
 
-  // read delayed output
-  outBuf[frames] = read();
+	// read delayed output
+	outBuf[frames] = read();
 
   // update reverse --> next sample
   tick();
+
+	std::cout << getDistanceRW() << "\n\n";
 }
+
+
 
 // logging methods
 void Reverse::logRWPos()

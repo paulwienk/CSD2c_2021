@@ -32,6 +32,7 @@ private:
   float samplerate;
   float feedback;
   float delayLineTime;
+  
 
 
 };
