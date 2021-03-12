@@ -30,7 +30,3 @@ void Oscillator::setFrequency(float frequency) {
     phaseIncrement = frequency / sampleRate;
 }
 
-void Oscillator::setSampleRate(float sampleRate) {
-    this->sampleRate = sampleRate;
-    phaseIncrement = frequency / sampleRate;
-}

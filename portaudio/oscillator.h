@@ -16,8 +16,6 @@ public:
     //getters and setters
     void setFrequency(float frequency);
 
-    void setSampleRate(float sampleRate);
-
     virtual void tick() {}
 
 protected:
@@ -25,7 +23,6 @@ protected:
     double frequency;
     double phase = 0.0;
     double sample = 0.0;
-    double sample1 = 0.0;
 
     double phaseIncrement = frequency / sampleRate;
 
