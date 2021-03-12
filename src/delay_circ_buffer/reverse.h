@@ -14,9 +14,9 @@ public:
 	void resetSize(uint size);
 
 	// setter and getter for the distance between read and write head
-	void setDistanceRW(uint distanceRW);
-  uint getDistanceRW();
-
+	void setDistanceRW(int distanceRW);
+  int getDistanceRW();
+	uint getSize();
 
 	// write and read values at write / read head
 	inline void write(float val) { m_buffer[m_writeH] = val; }
@@ -31,8 +31,7 @@ public:
 	// process method
 	void process(float* inBuf, float* outBuf, uint frames);
 
-	// float distanceRW();
-	// void gain(distanceRW, m_size);
+	float gain();
 
 	// debug methods
 	void logRWPos();
@@ -74,7 +73,7 @@ private:
 	// read and write heads, reverse size
 	uint m_readH;
 	uint m_writeH;
-	uint m_distanceRW;
+	int m_distanceRW;
 
 	// variables
 	float samplerate;

@@ -37,7 +37,7 @@ void Reverse::releaseBuffer()
 }
 
 // setters and getters
-void Reverse::setDistanceRW(uint distanceRW)
+void Reverse::setDistanceRW(int distanceRW)
 {
   // store new distance between R & W heads and update rhead position
 	m_distanceRW = distanceRW;
@@ -45,9 +45,19 @@ void Reverse::setDistanceRW(uint distanceRW)
   wrapReadH(m_readH);
 }
 
-uint Reverse::getDistanceRW() {
+int Reverse::getDistanceRW() {
 	m_distanceRW = m_writeH - m_readH;
-	return m_distanceRW;
+
+	if (m_distanceRW < 0){
+		m_distanceRW *= -1;
+		return m_distanceRW;
+	} else {
+		return m_distanceRW;
+	}
+}
+
+uint Reverse::getSize(){
+	return m_size;
 }
 
 void Reverse::process(float* inBuf, float* outBuf, uint frames){
@@ -55,15 +65,23 @@ void Reverse::process(float* inBuf, float* outBuf, uint frames){
 	write(inBuf[frames]);
 
 	// read delayed output
-	outBuf[frames] = read();
+	outBuf[frames] = read() * gain();
 
   // update reverse --> next sample
   tick();
 
-	std::cout << getDistanceRW() << "\n\n";
+
 }
 
+float Reverse::gain(){
+	float gain;
+	float delayMax = getSize();
+	float distance = getDistanceRW();
 
+	gain = 4 * distance/delayMax * (1 - distance/delayMax);
+
+	return gain;
+}
 
 // logging methods
 void Reverse::logRWPos()
