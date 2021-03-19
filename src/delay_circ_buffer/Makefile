@@ -2,9 +2,9 @@ CC = g++
 CFLAGS = -I/usr/local/include -Wall -std=c++17
 LDFLAGS= -ljack
 
-all: example
+all: tracolor
 
-example : jack_module.o delay.o reverse.o delayLine.o main.o
+tracolor : jack_module.o delay.o reverse.o delayLine.o main.o
 	$(CC) -o $@ $(CFLAGS) jack_module.o delay.o reverse.o delayLine.o main.o $(LDFLAGS)
 
 .cpp.o:
@@ -12,4 +12,7 @@ example : jack_module.o delay.o reverse.o delayLine.o main.o
 
 clean:
 	rm -f *.o
-	rm -f example
+	rm -f tracolor
+
+clean_o:
+	rm -f *.o
