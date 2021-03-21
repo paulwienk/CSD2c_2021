@@ -1,3 +1,0 @@
-repository='https://github.com/PortAudio/portaudio.git'
-module=''
-tag='origin'

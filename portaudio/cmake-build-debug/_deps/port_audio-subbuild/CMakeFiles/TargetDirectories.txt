@@ -1,3 +1,0 @@
-C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/port_audio-populate.dir
-C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/ALL_BUILD.dir
-C:/Users/paulw/Desktop/portaudio/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/ZERO_CHECK.dir
