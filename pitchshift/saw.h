@@ -1,3 +1,6 @@
+
+// Sawtooth formula by Paul Wienk
+
 #pragma once
 
 #include <iostream>
@@ -10,3 +13,4 @@ public:
 
     void tick() override;
 };
+
