@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="port_audio_test" targetName="portaudio" />
+      <config projectName="port_audio_test" targetName="test" />
+      <config projectName="port_audio_test" targetName="uninstall" />
+      <config projectName="port_audio_test" targetName="portaudio_static" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="739a5004-9ad5-4c0a-81ae-d26161dd8562" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-d6e8a908edb77ab9b3c4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-5a0ae8913b6102c24330.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-0f3661ea074a04d39115.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2021-02-22T19-54-28-0717.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-ALL_BUILD-Debug-af92ae1fdf7c30118c35.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-ALL_BUILD-MinSizeRel-af92ae1fdf7c30118c35.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-ALL_BUILD-RelWithDebInfo-af92ae1fdf7c30118c35.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-ALL_BUILD-Release-af92ae1fdf7c30118c35.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-ZERO_CHECK-Debug-3e3b229edd38d778ca88.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-ZERO_CHECK-MinSizeRel-3e3b229edd38d778ca88.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-ZERO_CHECK-RelWithDebInfo-3e3b229edd38d778ca88.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-ZERO_CHECK-Release-3e3b229edd38d778ca88.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-portaudio-Debug-77e727e644ae49cb5fb2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-portaudio-MinSizeRel-2184ce953111ee63c494.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-portaudio-RelWithDebInfo-24940da88020071c5e4b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-portaudio-Release-1af640381cdebfd0312b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-portaudio_static-Debug-11f0d0d639f7b0ec83da.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-portaudio_static-MinSizeRel-5c10e461dbb29cf6a680.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-portaudio_static-RelWithDebInfo-936544a5a03baa357a48.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-portaudio_static-Release-f5e08163953054aa9c96.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-test-Debug-f3da6db24ea094be025f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-test-MinSizeRel-cf9f83c948782e7db1eb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-test-RelWithDebInfo-330e7f2e29a710ab4750.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-test-Release-8a455373b5875e7c354e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-uninstall-Debug-0a1d56c5d4572c8191a0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-uninstall-MinSizeRel-0a1d56c5d4572c8191a0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-uninstall-RelWithDebInfo-0a1d56c5d4572c8191a0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-uninstall-Release-0a1d56c5d4572c8191a0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ALL_BUILD.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ALL_BUILD.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CompilerIdC.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CompilerIdC.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/Debug/CMakeCCompilerId.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/Debug/CompilerIdC.exe.recipe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/Debug/CompilerIdC.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/Debug/CompilerIdC.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/Debug/CompilerIdC.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/Debug/CompilerIdC.tlog/CompilerIdC.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/Debug/CompilerIdC.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/Debug/CompilerIdC.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/Debug/CompilerIdC.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CompilerIdCXX.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CompilerIdCXX.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/Debug/CMakeCXXCompilerId.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/Debug/CompilerIdCXX.exe.recipe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CompilerIdCXX.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/VCTargetsPath.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/VCTargetsPath.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/x64/Debug/VCTargetsPath.recipe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/x64/Debug/VCTargetsPath.tlog/VCTargetsPath.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/8c0cea158a439533f81c5ecca932710a/INSTALL_force.rule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/8c0cea158a439533f81c5ecca932710a/uninstall.rule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TestEndianess.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/e3a21c429edcb081273c8c37c68d4376/INSTALL_force.rule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/e3a21c429edcb081273c8c37c68d4376/generate.stamp.rule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/generate.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/generate.stamp.depend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/generate.stamp.list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Debug/test.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Debug/test.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Debug/test.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/INSTALL.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/INSTALL.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ZERO_CHECK.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ZERO_CHECK.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/CMakeFiles/Export/lib/cmake/portaudio/portaudioTargets-debug.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/CMakeFiles/Export/lib/cmake/portaudio/portaudioTargets-minsizerel.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/CMakeFiles/Export/lib/cmake/portaudio/portaudioTargets-release.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/CMakeFiles/Export/lib/cmake/portaudio/portaudioTargets-relwithdebinfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/CMakeFiles/Export/lib/cmake/portaudio/portaudioTargets.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/CMakeFiles/generate.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/CMakeFiles/generate.stamp.depend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/Debug/portaudio_static_x64.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/INSTALL.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/INSTALL.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/cmake_uninstall.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/options_cmake.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio-2.0.pc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio_cmake.def" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio_static.dir/Debug/pa_allocation.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio_static.dir/Debug/pa_converters.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio_static.dir/Debug/pa_cpuload.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio_static.dir/Debug/pa_debugprint.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio_static.dir/Debug/pa_dither.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio_static.dir/Debug/pa_front.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio_static.dir/Debug/pa_hostapi_skeleton.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio_static.dir/Debug/pa_process.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio_static.dir/Debug/pa_ringbuffer.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio_static.dir/Debug/pa_stream.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio_static.dir/Debug/pa_trace.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio_static.dir/Debug/pa_win_coinitialize.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio_static.dir/Debug/pa_win_ds.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio_static.dir/Debug/pa_win_ds_dynlink.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio_static.dir/Debug/pa_win_hostapis.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio_static.dir/Debug/pa_win_util.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio_static.dir/Debug/pa_win_wasapi.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio_static.dir/Debug/pa_win_waveformat.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio_static.dir/Debug/pa_win_wdmks.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio_static.dir/Debug/pa_win_wdmks_utils.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio_static.dir/Debug/pa_win_wmme.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio_static.dir/Debug/pa_x86_plain_converters.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio_static.dir/Debug/portaudio_static.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio_static.dir/Debug/portaudio_static.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio_static.dir/Debug/portaudio_static.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio_static.dir/Debug/portaudio_static.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio_static.dir/Debug/portaudio_static.tlog/CustomBuild.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio_static.dir/Debug/portaudio_static.tlog/CustomBuild.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio_static.dir/Debug/portaudio_static.tlog/CustomBuild.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio_static.dir/Debug/portaudio_static.tlog/Lib-link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio_static.dir/Debug/portaudio_static.tlog/Lib-link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio_static.dir/Debug/portaudio_static.tlog/Lib.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio_static.dir/Debug/portaudio_static.tlog/portaudio_static.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio_static.dir/Debug/portaudio_static_x64.lib.recipe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio_static.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/portaudio_static.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/uninstall.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-build/uninstall.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-src" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/ALL_BUILD.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/ALL_BUILD.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/3.17.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/3.17.3/VCTargetsPath.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/3.17.3/VCTargetsPath.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/3.17.3/x64/Debug/VCTargetsPath.recipe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/3.17.3/x64/Debug/VCTargetsPath.tlog/VCTargetsPath.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/6588d88c920ac1e37209317c744a892b/generate.stamp.rule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/6588d88c920ac1e37209317c744a892b/port_audio-populate.rule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/Debug/port_audio-populate-complete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/dcc365dc92611e895f4b46c9a9600864/port_audio-populate-build.rule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/dcc365dc92611e895f4b46c9a9600864/port_audio-populate-configure.rule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/dcc365dc92611e895f4b46c9a9600864/port_audio-populate-download.rule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/dcc365dc92611e895f4b46c9a9600864/port_audio-populate-install.rule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/dcc365dc92611e895f4b46c9a9600864/port_audio-populate-mkdir.rule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/dcc365dc92611e895f4b46c9a9600864/port_audio-populate-patch.rule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/dcc365dc92611e895f4b46c9a9600864/port_audio-populate-test.rule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/dcc365dc92611e895f4b46c9a9600864/port_audio-populate-update.rule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/ee92f6a812182471dd0cbde0238aa640/port_audio-populate-complete.rule" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/generate.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/generate.stamp.depend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/generate.stamp.list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/port_audio-populate.dir/Labels.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/CMakeFiles/port_audio-populate.dir/Labels.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/ZERO_CHECK.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/ZERO_CHECK.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/Debug/port_audio-populate-build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/Debug/port_audio-populate-configure" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/Debug/port_audio-populate-done" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/Debug/port_audio-populate-download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/Debug/port_audio-populate-install" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/Debug/port_audio-populate-mkdir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/Debug/port_audio-populate-patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/Debug/port_audio-populate-test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/port_audio-populate-gitclone-lastrun.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/src/port_audio-populate-stamp/port_audio-populate-gitinfo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/tmp/port_audio-populate-cfgcmd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/tmp/port_audio-populate-cfgcmd.txt.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/tmp/port_audio-populate-gitclone.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate-prefix/tmp/port_audio-populate-gitupdate.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/port_audio-populate.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/x64/Debug/ALL_BUILD/ALL_BUILD.recipe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/x64/Debug/ALL_BUILD/ALL_BUILD.tlog/ALL_BUILD.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/x64/Debug/ALL_BUILD/ALL_BUILD.tlog/CustomBuild.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/x64/Debug/ALL_BUILD/ALL_BUILD.tlog/CustomBuild.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/x64/Debug/ALL_BUILD/ALL_BUILD.tlog/CustomBuild.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/x64/Debug/ZERO_CHECK/ZERO_CHECK.recipe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/x64/Debug/ZERO_CHECK/ZERO_CHECK.tlog/CustomBuild.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/x64/Debug/ZERO_CHECK/ZERO_CHECK.tlog/CustomBuild.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/x64/Debug/ZERO_CHECK/ZERO_CHECK.tlog/CustomBuild.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/x64/Debug/ZERO_CHECK/ZERO_CHECK.tlog/ZERO_CHECK.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/x64/Debug/port_audio-populate/port_aud.98DBF674.tlog/CustomBuild.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/x64/Debug/port_audio-populate/port_aud.98DBF674.tlog/CustomBuild.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/x64/Debug/port_audio-populate/port_aud.98DBF674.tlog/CustomBuild.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/x64/Debug/port_audio-populate/port_aud.98DBF674.tlog/port_audio-populate.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-subbuild/x64/Debug/port_audio-populate/port_audio-populate.recipe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake/portaudio/portaudioConfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake/portaudio/portaudioConfigVersion.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake/portaudio/portaudioTargets.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/port_audio_test.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test.dir/Debug/main.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test.dir/Debug/oscillator.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test.dir/Debug/saw.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test.dir/Debug/test.exe.recipe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test.dir/Debug/test.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test.dir/Debug/test.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test.dir/Debug/test.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test.dir/Debug/test.tlog/CustomBuild.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test.dir/Debug/test.tlog/CustomBuild.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test.dir/Debug/test.tlog/CustomBuild.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test.dir/Debug/test.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test.dir/Debug/test.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test.dir/Debug/test.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test.dir/Debug/test.tlog/test.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test.dir/Debug/vc142.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/x64/Debug/ZERO_CHECK/ZERO_CHECK.recipe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/x64/Debug/ZERO_CHECK/ZERO_CHECK.tlog/CustomBuild.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/x64/Debug/ZERO_CHECK/ZERO_CHECK.tlog/CustomBuild.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/x64/Debug/ZERO_CHECK/ZERO_CHECK.tlog/CustomBuild.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/x64/Debug/ZERO_CHECK/ZERO_CHECK.tlog/ZERO_CHECK.lastbuildstate" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1osqqpqgAiwOt7nH4Ph9sIONR7W" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+  </component>
+  <component name="RunManager" selected="CMake Application.test">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="portaudio" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="port_audio_test" TARGET_NAME="portaudio" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="portaudio_static" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="port_audio_test" TARGET_NAME="portaudio_static" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="port_audio_test" TARGET_NAME="test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="port_audio_test" RUN_TARGET_NAME="test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="uninstall" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="port_audio_test" TARGET_NAME="uninstall" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.test" />
+      <item itemvalue="CMake Application.portaudio" />
+      <item itemvalue="CMake Application.portaudio_static" />
+      <item itemvalue="CMake Application.uninstall" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="739a5004-9ad5-4c0a-81ae-d26161dd8562" name="Default Changelist" comment="" />
+      <created>1614085839017</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614085839017</updated>
+      <workItem from="1614085840090" duration="172000" />
+      <workItem from="1614086048322" duration="104000" />
+      <workItem from="1614086162248" duration="193000" />
+      <workItem from="1614086363051" duration="60000" />
+      <workItem from="1614086425476" duration="278000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

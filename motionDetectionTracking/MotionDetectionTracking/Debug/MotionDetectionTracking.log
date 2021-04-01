@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\steve\onedrive\documenten\hku\jaar 2\csd\2c\c++\tracolor\csd2c_2021\motiondetectiontracking\motiondetectiontracking\main.cpp(56): warning C4018: '<': signed/unsigned mismatch
+c:\users\steve\onedrive\documenten\hku\jaar 2\csd\2c\c++\tracolor\csd2c_2021\motiondetectiontracking\motiondetectiontracking\main.cpp(58): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+opencv_world451d.lib(opencv_world451d.dll) : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'x86'
