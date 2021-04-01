@@ -6,13 +6,13 @@
 using namespace cv;
 using namespace std;
 
-// printing red and blue. the last detected color overrules the other color
-class RedBluePrinter {
+// printing green and blue. the last detected color overrules the other color
+class GreenBluePrinter {
 public:
     void printBlue()
     {
         if (!blueLastPrinted) {
-            redLastPrinted = false;
+            greenLastPrinted = false;
             blueLastPrinted = true;
             cout << "blue object detected" << endl;
         }
@@ -20,19 +20,19 @@ public:
 
     void printRed()
     {
-        if (!redLastPrinted) {
-            redLastPrinted = true;
+        if (!greenLastPrinted) {
+            greenLastPrinted = true;
             blueLastPrinted = false;
-            cout << "red object detected" << endl;
+            cout << "green object detected" << endl;
         }
     }
 
-    bool redLastPrinted = false;
+    bool greenLastPrinted = false;
     bool blueLastPrinted = false;
 };
 
 Mat frame;
-RedBluePrinter redBluePrinter;
+GreenBluePrinter greenBluePrinter;
 
 // getting the contours of the object
 void getContoursForColor(Mat object, Scalar color, function<void()> onDetected)
@@ -51,7 +51,6 @@ void getContoursForColor(Mat object, Scalar color, function<void()> onDetected)
     {
         int area = contourArea(contours[i]);
 
-
         if (area > 1000)
         {
             // find the corner points of the object and store them in contoursPoly colors
@@ -67,32 +66,32 @@ void getContoursForColor(Mat object, Scalar color, function<void()> onDetected)
     }
 }
 
-// HSV values of red and blue: {hueMin, saturationMin, valueMin, hueMax, saturationMax, valueMax}
-vector<int> red     {157, 74, 86, 179, 153, 255};
+// HSV values of green and blue: {hueMin, saturationMin, valueMin, hueMax, saturationMax, valueMax}
+vector<int> green   {50, 40, 86, 82, 200, 255};
 vector<int> blue    {105, 74, 44, 135, 153, 255};
 
 // color detection
 void findColor(Mat object)
 {
-    Mat objectHSV, redMask, blueMask;
+    Mat objectHSV, greenMask, blueMask;
 
     // RGB to HSV
     cvtColor(object, objectHSV, COLOR_BGR2HSV);
 
     // define values for each color
-    Scalar redMinHSV(red[0], red[1], red[2]);
-    Scalar redMaxHSV(red[3], red[4], red[5]);
+    Scalar greenMinHSV(green[0], green[1], green[2]);
+    Scalar greenMaxHSV(green[3], green[4], green[5]);
 
     Scalar blueMinHSV(blue[0], blue[1], blue[2]);
     Scalar blueMaxHSV(blue[3], blue[4], blue[5]);
 
-    // filters the red and blue object (mask)
-    inRange(objectHSV, redMinHSV, redMaxHSV, redMask);
+    // filters the green and blue object (mask)
+    inRange(objectHSV, greenMinHSV, greenMaxHSV, greenMask);
     inRange(objectHSV, blueMinHSV, blueMaxHSV, blueMask);
 
     // get contours for each color with bounding box and print
-    getContoursForColor(redMask, Scalar (0, 255, 0), [] { redBluePrinter.printRed(); });
-    getContoursForColor(blueMask, Scalar (255, 0, 0), [] { redBluePrinter.printBlue(); });
+    getContoursForColor(greenMask, Scalar (0, 255, 0), [] { greenBluePrinter.printRed(); });
+    getContoursForColor(blueMask, Scalar (255, 0, 0), [] { greenBluePrinter.printBlue(); });
 }
 
 
