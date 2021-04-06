@@ -95,12 +95,6 @@ public:
 
 };
 
-// function to change the pitch in the commandline, real change happens at line 77
-auto getNumericInput() {
-    auto ans = std::string {};
-    std::getline(std::cin, ans);
-    return std::stod(ans);
-}
 //=================================================================================================================
 
 // printing green and blue. the last detected color overrules the other color
@@ -131,6 +125,8 @@ public:
 Mat frame;
 GreenBluePrinter greenBluePrinter;
 
+int greenY;
+
 // getting the contours of the object
 void getContoursForColor(Mat object, Scalar color, function<void()> onDetected)
 {
@@ -158,13 +154,17 @@ void getContoursForColor(Mat object, Scalar color, function<void()> onDetected)
             boundingBox[i] = boundingRect(contoursPoly[i]);
             rectangle(frame, boundingBox[i].tl(), boundingBox[i].br(), color, 3);
 
-            // printing coordinates of top left of the box
-            cout << boundingBox[i].tl() << endl;
+            // store the Y coordinate in a variable
+            greenY = boundingBox[i].tl().y;
+
+            // printing Y coordinate of top left of the box
+            cout << greenY << endl;
 
             onDetected();
         }
     }
 }
+
 
 // HSV values of green and blue: {hueMin, saturationMin, valueMin, hueMax, saturationMax, valueMax}
 vector<int> green   {50, 40, 86, 82, 200, 255};
@@ -220,8 +220,7 @@ int main()
             return 0;
         }
 
-        //callback.pitcher.saw.setFrequency(getNumericInput());
-
+        callback.pitcher.saw.setFrequency(greenY);
     }
 
 }
