@@ -17,8 +17,8 @@ using namespace std;
 Mat frame;
 
 // green will represent the pitchshifter, blue will represent the delay
-int greenY;
-int blueX;
+float greenY;
+float blueX;
 
 // getting the contours of the object
 void getContoursForColor(Mat object, Scalar color, function<void()> onDetected)
@@ -50,8 +50,8 @@ void getContoursForColor(Mat object, Scalar color, function<void()> onDetected)
             // store the Y and X coordinate in a variable
             // the Y coordinate will be used to control the pitchsifter on the Y-axis (150 to 600)
             // the X coordinate will be used to control the delay on the X-axis (150 to 750)
-            greenY = 6000 / (boundingBox[i].tl().y + 150);
-            blueX = 7500 / (boundingBox[i].tl().x + 150);
+            greenY = 6000.0 / (boundingBox[i].tl().y + 150.0);
+            blueX = 7500.0 / (boundingBox[i].tl().x + 150.0);
 
             cout << greenY << endl;
 
