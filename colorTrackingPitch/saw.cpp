@@ -7,6 +7,7 @@
 
 
 void Saw::tick() {
+
     updatePhase();
 
     // calculations for the saw wave.

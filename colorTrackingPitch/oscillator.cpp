@@ -13,10 +13,12 @@ inline constexpr T modulo(T dividend, const T divisor) noexcept {
     return dividend;
 }
 
+
 // function that updates the phase and keeps the phase between 0 and 1 with the modulo function
 void Oscillator::updatePhase() {
     phase = modulo(phase + phaseIncrement, 1.0);
 }
+
 
 // current sample return
 float Oscillator::getSample() {

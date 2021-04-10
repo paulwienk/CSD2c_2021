@@ -1,14 +1,12 @@
-/*
- * PortAudio API wrapper by Wouter Ensink
- */
+
+// PortAudio API wrapper by Wouter Ensink
 
 #pragma once
 
 #include <portaudio.h>
 #include <exception>
 
-class AudioIODeviceCallback
-{
+class AudioIODeviceCallback {
 public:
     virtual void prepareToPlay(int sampleRate, int numSamplesPerBlock) {}
 
@@ -18,8 +16,7 @@ public:
 };
 
 
-class PortAudio
-{
+class PortAudio {
 public:
     PortAudio(AudioIODeviceCallback& callback) : callback { callback } {}
     ~PortAudio() {}
