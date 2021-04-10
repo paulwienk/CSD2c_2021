@@ -2,37 +2,23 @@
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
 #include <iostream>
+#include <cmath>
+#include <random>
+#include <iostream>
+#include <string>
+#include "port_audio.h"
+#include "saw.h"
+#include "circBuffer.h"
+#include "pitcher.h"
 
 using namespace cv;
 using namespace std;
 
-// printing green and blue. the last detected color overrules the other color
-class GreenBluePrinter {
-public:
-    void printBlue()
-    {
-        if (!blueLastPrinted) {
-            greenLastPrinted = false;
-            blueLastPrinted = true;
-            cout << "blue object detected" << endl;
-        }
-    }
-
-    void printRed()
-    {
-        if (!greenLastPrinted) {
-            greenLastPrinted = true;
-            blueLastPrinted = false;
-            cout << "green object detected" << endl;
-        }
-    }
-
-    bool greenLastPrinted = false;
-    bool blueLastPrinted = false;
-};
-
 Mat frame;
-GreenBluePrinter greenBluePrinter;
+
+// green will represent the pitchshifter, blue will represent the delay
+int greenY;
+int blueX;
 
 // getting the contours of the object
 void getContoursForColor(Mat object, Scalar color, function<void()> onDetected)
@@ -61,17 +47,58 @@ void getContoursForColor(Mat object, Scalar color, function<void()> onDetected)
             boundingBox[i] = boundingRect(contoursPoly[i]);
             rectangle(frame, boundingBox[i].tl(), boundingBox[i].br(), color, 3);
 
-            // printing coordinates of top left of the box
-            cout << boundingBox[i].tl() << endl;
+            // store the Y and X coordinate in a variable
+            // the Y coordinate will be used to control the pitchsifter on the Y-axis (150 to 600)
+            // the X coordinate will be used to control the delay on the X-axis (150 to 750)
+            greenY = 6000 / (boundingBox[i].tl().y + 150);
+            blueX = 7500 / (boundingBox[i].tl().x + 150);
+
+            cout << greenY << endl;
 
             onDetected();
         }
     }
 }
 
+// define current state of the visible object (green or blue)
+bool currentState;
+
+// printing green and blue. the last detected color overrules the other color
+class GreenBlueSelector {
+public:
+
+    void selectGreen()
+    {
+        if (!greenLastPrinted) {
+
+            greenLastPrinted = true;
+            blueLastPrinted = false;
+            cout << "green object detected" << endl;
+            currentState = false;
+        }
+    }
+
+    void selectBlue()
+    {
+        if (!blueLastPrinted) {
+
+            greenLastPrinted = false;
+            blueLastPrinted = true;
+            cout << "blue object detected" << endl;
+            currentState = true;
+        }
+    }
+
+    bool greenLastPrinted = false;
+    bool blueLastPrinted = false;
+};
+
+GreenBlueSelector greenBluePrinter;
+
 // HSV values of green and blue: {hueMin, saturationMin, valueMin, hueMax, saturationMax, valueMax}
 vector<int> green   {50, 40, 86, 82, 200, 255};
 vector<int> blue    {105, 74, 44, 135, 153, 255};
+
 
 // color detection
 void findColor(Mat object)
@@ -93,14 +120,22 @@ void findColor(Mat object)
     inRange(objectHSV, blueMinHSV, blueMaxHSV, blueMask);
 
     // get contours for each color with bounding box and print
-    getContoursForColor(greenMask, Scalar (0, 255, 0), [] { greenBluePrinter.printRed(); });
-    getContoursForColor(blueMask, Scalar (255, 0, 0), [] { greenBluePrinter.printBlue(); });
+    getContoursForColor(greenMask, Scalar (0, 255, 0), [] { greenBluePrinter.selectGreen(); });
+    getContoursForColor(blueMask, Scalar (255, 0, 0), [] { greenBluePrinter.selectBlue(); });
 }
 
 
 int main()
 {
+    auto callback = NoiseTestCallback {};
+    auto portAudio = PortAudio { callback };
+
+    auto sampleRate = 44100;
+    auto blockSize = 64;
+
     VideoCapture cap(0);
+
+    portAudio.setup(sampleRate, blockSize);
 
     while (true)
     {
@@ -110,6 +145,19 @@ int main()
         flip(frame, frame, 1);
         imshow("Image", frame);
 
+        // triggers the pitchshifter
+        if (!currentState)
+        {
+            callback.pitcher.saw.setFrequency(greenY);
+        }
+
+        // trigger the delay
+        if (currentState)
+        {
+            callback.pitcher.saw.setFrequency(blueX);
+        }
+
+        // quit with escape button
         if (waitKey(30) == 27)
         {
             return 0;
