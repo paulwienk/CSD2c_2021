@@ -10,6 +10,19 @@
 #include "saw.h"
 #include "circBuffer.h"
 #include "pitcher.h"
+#include <thread>
+#include "delay_circ_buffer/jackModuleAdapter.h"
+#include "delay_circ_buffer/delayLine.h"
+#include "delay_circ_buffer/delay.h"
+#include "delay_circ_buffer/reverse.h"
+#include "math.h"
+
+// 10 seconds if sampleRate = 44100inBuf[i]
+#define MAX_DELAY_SIZE 441000
+#define DELAY_TIME_SEC 0.5f
+#define REVERSE_TIME_SEC 1.0f
+
+#define PI_2 6.28318530717959
 
 using namespace cv;
 using namespace std;
@@ -47,13 +60,13 @@ void getContoursForColor(Mat object, Scalar color, function<void()> onDetected)
             boundingBox[i] = boundingRect(contoursPoly[i]);
             rectangle(frame, boundingBox[i].tl(), boundingBox[i].br(), color, 3);
 
-            // store the Y and X coordinate in a variable
-            // the Y coordinate will be used to control the pitchsifter on the Y-axis (150 to 600)
-            // the X coordinate will be used to control the delay on the X-axis (150 to 750)
+            // store the Y and X coordinate in a variable, scaled to the right frequencies
+            // the Y coordinate will be used to control the pitchsifter on the Y-axis (coordinates 150 to 600)
+            // the X coordinate will be used to control the delay on the X-axis (coordinates 150 to 750)
             greenY = 6000.0 / (boundingBox[i].tl().y + 150.0);
             blueX = 7500.0 / (boundingBox[i].tl().x + 150.0);
 
-            cout << greenY << endl;
+            //cout << greenY << endl;
 
             onDetected();
         }
@@ -127,16 +140,50 @@ void findColor(Mat object)
 
 int main()
 {
-    auto callback = NoiseTestCallback {};
-    auto portAudio = PortAudio { callback };
 
-    auto sampleRate = 44100;
+    // init portaudio audio callback
+    const auto sampleRate = 44100;
+
+    // retrieve either default or console line argument delaytime
+    float delayTimeSec = DELAY_TIME_SEC;
+    float reverseTimeSec = REVERSE_TIME_SEC;
+
+    // transform delay inBuf[frames]time in seconds to delay time in number of samples
+    unsigned int numSamplesDelay = sampleRate * delayTimeSec;
+    unsigned int bufferSizeDelay = MAX_DELAY_SIZE * 2;
+
+    unsigned int numSamplesReverse = sampleRate * reverseTimeSec;
+    unsigned int bufferSizeReverse = numSamplesReverse * 2;
+
+    // instantiate delay, 2x larger then delay time and set feedback/delay
+    Delay delay(bufferSizeDelay, numSamplesDelay, sampleRate, 0.8);
+    delay.log();
+    Reverse reverse(bufferSizeReverse, sampleRate);
+
+    JackModuleAdapter adapter;
+
+    adapter.callback = [&reverse, &delay](float *inBuf, float *outBuf, unsigned int nframes) {
+
+        for(unsigned int i = 0; i < nframes; i++) {
+            // process reversing input
+            reverse.process(inBuf, outBuf, i);
+            delay.process(outBuf, outBuf, i);
+
+        }
+        return 0;
+    };
+
+    PortAudio portAudio { adapter };
+
+    portAudio.setup(sampleRate, 64);
+
+    auto callback = NoiseTestCallback {};
+    auto portAudio1 = PortAudio { callback };
     auto blockSize = 64;
 
+    portAudio1.setup(sampleRate, blockSize);
+
     VideoCapture cap(0);
-
-    portAudio.setup(sampleRate, blockSize);
-
     while (true)
     {
         cap.read(frame);
@@ -151,10 +198,11 @@ int main()
             callback.pitcher.saw.setFrequency(greenY);
         }
 
-        // trigger the delay
+        // will trigger the delay
         if (currentState)
         {
-            callback.pitcher.saw.setFrequency(blueX);
+            delay.setFeedback(blueX);
+            delay.setDelayTime(blueX);
         }
 
         // quit with escape button

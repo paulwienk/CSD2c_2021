@@ -46,7 +46,7 @@ public:
         return sample1 + sample2;
     }
 
-    Saw saw{0, 44100};
+    Saw saw{20, 44100};
     CircBuffer circBuffer1{44100};
     CircBuffer circBuffer2{44100};
 };
