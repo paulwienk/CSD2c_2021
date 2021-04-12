@@ -1,5 +1,5 @@
 
-// color detection by Paul Wienk
+// by Paul Wienk
 
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>

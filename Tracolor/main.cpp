@@ -87,8 +87,15 @@ int main()
         cap.read(frame);
         findColor(frame);
 
+        Mat greenMask, blueMask, gr, be;
+
+        bitwise_and(frame, frame, gr, greenMask);
+        bitwise_and(frame, frame, be, blueMask);
+
         flip(frame, frame, 1);
         imshow("Image", frame);
+        imshow("Imag", gr);
+
 
         // triggers the pitchshifter
         if (!currentState)
