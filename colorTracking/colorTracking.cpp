@@ -2,36 +2,51 @@
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
 #include <iostream>
-#include <cmath>
-#include <random>
-#include <iostream>
-#include <string>
 #include "port_audio.h"
 #include "saw.h"
 #include "circBuffer.h"
 #include "pitcher.h"
-#include <thread>
 #include "delay_circ_buffer/jackModuleAdapter.h"
 #include "delay_circ_buffer/delayLine.h"
 #include "delay_circ_buffer/delay.h"
 #include "delay_circ_buffer/reverse.h"
-#include "math.h"
-
-// 10 seconds if sampleRate = 44100inBuf[i]
-#define MAX_DELAY_SIZE 441000
-#define DELAY_TIME_SEC 0.5f
-#define REVERSE_TIME_SEC 1.0f
-
-#define PI_2 6.28318530717959
 
 using namespace cv;
 using namespace std;
+
+// 10 seconds if sampleRate = 44100inBuf[i]
+inline constexpr auto MAX_DELAY_SIZE = 441000;
+inline constexpr auto DELAY_TIME_SEC = 0.5f;
+inline constexpr auto REVERSE_TIME_SEC = 1.0f;
+
+// define current state of the visible object (green or blue)
+bool currentState;
+
+// one main callback which calls the right process function
+struct Callback : AudioIODeviceCallback {
+
+    void prepareToPlay(int sampleRate, int numSamplesPerBlock) override {
+        pitcher.prepareToPlay(sampleRate, numSamplesPerBlock);
+        delay.prepareToPlay(sampleRate, numSamplesPerBlock);
+    }
+
+    void process(float* in, float* out, int numSamples, int numChannels) override {
+        if (!currentState)
+            pitcher.process(in, out, numSamples, numChannels);
+        else
+            delay.process(in, out, numSamples, numChannels);
+    }
+
+    JackModuleAdapter delay;
+    NoiseTestCallback pitcher;
+};
 
 Mat frame;
 
 // green will represent the pitchshifter, blue will represent the delay
 float greenY;
 float blueX;
+float blueY;
 
 // getting the contours of the object
 void getContoursForColor(Mat object, Scalar color, function<void()> onDetected)
@@ -64,17 +79,16 @@ void getContoursForColor(Mat object, Scalar color, function<void()> onDetected)
             // the Y coordinate will be used to control the pitchsifter on the Y-axis (coordinates 150 to 600)
             // the X coordinate will be used to control the delay on the X-axis (coordinates 150 to 750)
             greenY = 6000.0 / (boundingBox[i].tl().y + 150.0);
-            blueX = 7500.0 / (boundingBox[i].tl().x + 150.0);
+            blueY = 47.5 / (boundingBox[i].tl().y + 50.0);
+            blueX = 50.0 / (boundingBox[i].tl().x + 50.0);
 
-            //cout << greenY << endl;
+            cout << blueX << endl;
 
             onDetected();
         }
     }
 }
 
-// define current state of the visible object (green or blue)
-bool currentState;
 
 // printing green and blue. the last detected color overrules the other color
 class GreenBlueSelector {
@@ -137,12 +151,11 @@ void findColor(Mat object)
     getContoursForColor(blueMask, Scalar (255, 0, 0), [] { greenBluePrinter.selectBlue(); });
 }
 
-
 int main()
 {
-
     // init portaudio audio callback
     const auto sampleRate = 44100;
+    auto blockSize = 64;
 
     // retrieve either default or console line argument delaytime
     float delayTimeSec = DELAY_TIME_SEC;
@@ -160,9 +173,9 @@ int main()
     delay.log();
     Reverse reverse(bufferSizeReverse, sampleRate);
 
-    JackModuleAdapter adapter;
+    Callback callback;
 
-    adapter.callback = [&reverse, &delay](float *inBuf, float *outBuf, unsigned int nframes) {
+    callback.delay.callback = [&reverse, &delay](float *inBuf, float *outBuf, unsigned int nframes) {
 
         for(unsigned int i = 0; i < nframes; i++) {
             // process reversing input
@@ -173,17 +186,11 @@ int main()
         return 0;
     };
 
-    PortAudio portAudio { adapter };
-
-    portAudio.setup(sampleRate, 64);
-
-    auto callback = NoiseTestCallback {};
-    auto portAudio1 = PortAudio { callback };
-    auto blockSize = 64;
-
-    portAudio1.setup(sampleRate, blockSize);
+    PortAudio portAudio { callback };
+    portAudio.setup(sampleRate, blockSize);
 
     VideoCapture cap(0);
+
     while (true)
     {
         cap.read(frame);
@@ -195,13 +202,13 @@ int main()
         // triggers the pitchshifter
         if (!currentState)
         {
-            callback.pitcher.saw.setFrequency(greenY);
+            callback.pitcher.pitcher.saw.setFrequency(greenY);
         }
 
         // will trigger the delay
         if (currentState)
         {
-            delay.setFeedback(blueX);
+            delay.setFeedback(blueY);
             delay.setDelayTime(blueX);
         }
 
