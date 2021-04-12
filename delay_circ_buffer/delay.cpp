@@ -1,12 +1,10 @@
 #include <iostream>
 #include "delay.h"
-#include "delayLine.h"
 
-
-Delay::Delay(uint size, int numSamplesDelay, float samplerate, float feedback = 0.5) :
-delayLine(size), size(size), samplerate(samplerate), feedback(feedback)
+Delay::Delay(uint size, int numSamplesDelay, float sampleRate, float feedback = 0.5) :
+        delayLine(size), size(size), sampleRate(sampleRate), feedback(feedback)
 {
-  delayLine.setDistanceRW(numSamplesDelay);
+    delayLine.setDistanceRW(numSamplesDelay);
 }
 
 Delay::~Delay(){
@@ -16,7 +14,7 @@ Delay::~Delay(){
 // methods
 
 // proces input and output and tick to next sample
-void Delay::proces(float* inBuf, float* outBuf, uint frames){
+void Delay::process(float* inBuf, float* outBuf, uint frames){
   // write input to delay
   delayLine.write(inBuf[frames] + delayLine.read() * feedback);
 
@@ -43,13 +41,17 @@ void Delay::setFeedback(float feedback){
 }
 
 void Delay::setDelayTime(float delayLineTime){
-	if((delayLineTime >= 0) && (delayLineTime < size)){
-		this->delayLineTime = delayLineTime;
-		int numSamplesDelayLine = samplerate * delayLineTime;
-		delayLine.setDistanceRW(numSamplesDelayLine);
+    int numSamplesDelayLine = sampleRate * delayLineTime;
+    std::cout << "numSamplesDelayLine: " << numSamplesDelayLine << "\n";
+
+    if((delayLineTime > 0) && (delayLineTime < (size * 0.5))){
+        this->delayLineTime = delayLineTime;
+        std::cout << "delayLineTime: " << delayLineTime << "\n";
+
+        delayLine.setDistanceRW(numSamplesDelayLine);
 	}
 	else {
-		std::cout << "Sorry, this is not the correct value. I need an integer between 0 and " << size << "\n";
+		std::cout << "Sorry, this is not the correct value. I need an integer between 0 and " << size / sampleRate / 2 << "\n";
 	}
 }
 

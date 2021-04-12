@@ -7,11 +7,11 @@ typedef unsigned int uint;
 class Delay{
 public:
   // constructor/destructor
-  Delay(uint size, int numSamplesDelay, float samplerate, float feedback);
+  Delay(uint size, int numSamplesDelay, float sampleRate, float feedback);
   ~Delay();
 
   // methods
-  void proces(float* inBuf, float* outBuf, unsigned int frames);
+  void process(float* inBuf, float* outBuf, unsigned int frames);
   void log();
 
 
@@ -29,7 +29,7 @@ private:
   uint size;
   uint frames;
   int numSamplesDelay;
-  float samplerate;
+  float sampleRate;
   float feedback;
   float delayLineTime;
   

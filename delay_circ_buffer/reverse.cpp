@@ -1,11 +1,10 @@
 #include "reverse.h"
-#include "jack_module.h"
 #include <iostream>
 #include <cstring>
 
 // constructors and destructor
-Reverse::Reverse(uint size, float samplerate)
-: m_size(size),  m_readH(size), m_writeH(0), samplerate(samplerate)
+Reverse::Reverse(uint size, float sampleRate)
+: m_size(size), m_readH(size), m_writeH(0), sampleRate(sampleRate)
 {
 	allocateBuffer();
 }
@@ -67,8 +66,8 @@ void Reverse::process(float* inBuf, float* outBuf, uint frames){
 	// read delayed output
 	outBuf[frames] = read() * gain();
 
-  // update reverse --> next sample
-  tick();
+    // update reverse --> next sample
+    tick();
 
 
 }
@@ -83,47 +82,4 @@ float Reverse::gain(){
 	return gain;
 }
 
-// logging methods
-void Reverse::logRWPos()
-{
-	std::cout << "\n______________________ Reverse ______________________________\n";
-	std::cout << "Read head position: " << m_readH << "\n";
-	std::cout << "Write head position: " << m_writeH << "\n";
-	std::cout << "_________________________________________________________________\n";
-}
 
-void Reverse::logDistanceRW()
-{
-	std::cout << "\n______________________ Reverse ______________________________\n";
-	std::cout << "Distance between read and write head: " << m_distanceRW << "\n";
-	std::cout << "_________________________________________________________________\n";
-}
-
-void Reverse::logSize()
-{
-	std::cout << "\n______________________ Reverse ______________________________\n";
-	std::cout << "Buffer size: " << m_size << "\n";
-	std::cout << "_________________________________________________________________\n";
-}
-
-void Reverse::logAllSettings()
-{
-	std::cout << "\n______________________ Reverse ______________________________\n";
-	std::cout << "Read head position: " << m_readH << "\n";
-	std::cout << "Write head position: " << m_writeH << "\n";
-  std::cout << "Distance between read and write head: " << m_distanceRW << "\n";
-  std::cout << "Buffer size: " << m_size << "\n";
-	std::cout << "_________________________________________________________________\n";
-}
-
-void Reverse::logAllValues()
-{
-	std::cout << "\n______________________ Reverse ______________________________\n";
-	std::cout << "Reverse - buffer contains: \n";
-	for (unsigned int i = 0; i < m_size - 1; i++)
-	{
-		std::cout << m_buffer[i] << ", ";
-	}
-	std::cout << m_buffer[m_size - 1] << "\n";
-	std::cout << "_________________________________________________________________\n";
-}

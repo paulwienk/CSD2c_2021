@@ -51,8 +51,8 @@ int main()
 		dilate(thresh, dilated, kernel);
 
 		// findContours
-		findContours(dilated, contours, RETR_EXTERNAL, CHAIN_APPROX_SIMPLE);
-		drawContours(dilated, contours, -1, Scalar(255, 0, 255), 2);
+		//findContours(dilated, contours, RETR_EXTERNAL, CHAIN_APPROX_SIMPLE);
+		//drawContours(dilated, contours, -1, Scalar(255, 0, 255), 2);
 
 		// calc area of motion
 		for (int i = 0; i < contours.size(); i++)
