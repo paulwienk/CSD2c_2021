@@ -1,15 +1,14 @@
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
-#include <iostream>
-#include "port_audio.h"
-#include "saw.h"
-#include "circBuffer.h"
-#include "pitcher.h"
-#include "delay_circ_buffer/jackModuleAdapter.h"
-#include "delay_circ_buffer/delayLine.h"
-#include "delay_circ_buffer/delay.h"
-#include "delay_circ_buffer/reverse.h"
+#include "pitch_shifter/port_audio.h"
+#include "pitch_shifter/saw.h"
+#include "pitch_shifter/circBuffer.h"
+#include "pitch_shifter/pitcher.h"
+#include "reverse_delay/jackModuleAdapter.h"
+#include "reverse_delay/delayLine.h"
+#include "reverse_delay/delay.h"
+#include "reverse_delay/reverse.h"
 
 using namespace cv;
 using namespace std;
@@ -82,15 +81,13 @@ void getContoursForColor(Mat object, Scalar color, function<void()> onDetected)
             blueY = 47.5 / (boundingBox[i].tl().y + 50.0);
             blueX = 50.0 / (boundingBox[i].tl().x + 50.0);
 
-            cout << blueX << endl;
-
             onDetected();
         }
     }
 }
 
 
-// printing green and blue. the last detected color overrules the other color
+// selecting green or blue. the last detected color overrules the other color
 class GreenBlueSelector {
 public:
 
@@ -100,7 +97,6 @@ public:
 
             greenLastPrinted = true;
             blueLastPrinted = false;
-            cout << "green object detected" << endl;
             currentState = false;
         }
     }
@@ -111,7 +107,6 @@ public:
 
             greenLastPrinted = false;
             blueLastPrinted = true;
-            cout << "blue object detected" << endl;
             currentState = true;
         }
     }
