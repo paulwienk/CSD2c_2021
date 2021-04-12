@@ -6,7 +6,7 @@ FetchContent_Declare(port_audio GIT_REPOSITORY "https://github.com/PortAudio/por
 FetchContent_MakeAvailable(port_audio)
 
 add_executable(Tracolor pitch_shifter/pitcher.h main.cpp pitch_shifter/port_audio.h pitch_shifter/oscillator.cpp pitch_shifter/oscillator.h
-               pitch_shifter/saw.cpp pitch_shifter/saw.h pitch_shifter/circBuffer.cpp pitch_shifter/circBuffer.h
+               pitch_shifter/saw.cpp pitch_shifter/saw.h pitch_shifter/circBuffer.cpp pitch_shifter/circBuffer.h colorDetection.h
         reverse_delay/delay.cpp reverse_delay/delay.h reverse_delay/delayLine.cpp
         reverse_delay/delayLine.h reverse_delay/reverse.cpp reverse_delay/reverse.h reverse_delay/jackModuleAdapter.h)
 

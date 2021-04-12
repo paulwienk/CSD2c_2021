@@ -1,5 +1,5 @@
-
-// PortAudio API wrapper by Wouter Ensink
+// by Paul Wienk
+// this main file is not used in the Tracolor project, only for the effect assignment
 
 #include <cmath>
 #include <random>

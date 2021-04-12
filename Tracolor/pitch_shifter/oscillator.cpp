@@ -1,7 +1,6 @@
 
 // Oscillator by Paul Wienk
 
-#include <math.h>
 #include "oscillator.h"
 
 // modulo function by Wouter Ensink

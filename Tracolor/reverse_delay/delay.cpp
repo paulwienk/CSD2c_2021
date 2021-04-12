@@ -7,14 +7,13 @@ Delay::Delay(uint size, int numSamplesDelay, float sampleRate, float feedback = 
     delayLine.setDistanceRW(numSamplesDelay);
 }
 
-Delay::~Delay(){
-
-}
+Delay::~Delay(){}
 
 // methods
 
 // proces input and output and tick to next sample
-void Delay::process(float* inBuf, float* outBuf, uint frames){
+void Delay::process(float* inBuf, float* outBuf, uint frames) {
+
   // write input to delay
   delayLine.write(inBuf[frames] + delayLine.read() * feedback);
 

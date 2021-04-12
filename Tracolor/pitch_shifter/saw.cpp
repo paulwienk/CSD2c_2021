@@ -1,10 +1,7 @@
 
 // Sawtooth formula by Paul Wienk
 
-#include <cmath>
 #include "saw.h"
-#include "oscillator.h"
-
 
 void Saw::tick() {
 
