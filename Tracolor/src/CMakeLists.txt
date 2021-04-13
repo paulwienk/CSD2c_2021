@@ -10,7 +10,7 @@ add_executable(Tracolor pitch_shifter/pitcher.h main.cpp pitch_shifter/port_audi
                reverse_delay/delay.cpp reverse_delay/delay.h reverse_delay/delayLine.cpp
                reverse_delay/delayLine.h reverse_delay/reverse.cpp reverse_delay/reverse.h reverse_delay/jackModuleAdapter.h)
 
-target_include_directories(Tracolor PRIVATE "D:\\opencv\\build\\include")
-target_link_libraries(Tracolor PRIVATE "D:\\opencv\\build\\x64\\vc15\\lib\\opencv_world451d.lib")
+target_include_directories(Tracolor PRIVATE "C:\\Users\\steve\\OneDrive\\Documenten\\Programming\\lib\\opencv\\build\\include")
+target_link_libraries(Tracolor PRIVATE "C:\\Users\\steve\\OneDrive\\Documenten\\Programming\\lib\\opencv\\build\\x64\\vc15\\lib\\opencv_world451d.lib")
 target_link_libraries(Tracolor PRIVATE portaudio_static)
 target_compile_features(Tracolor PRIVATE cxx_std_17)
