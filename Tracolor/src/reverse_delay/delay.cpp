@@ -41,11 +41,9 @@ void Delay::setFeedback(float feedback){
 
 void Delay::setDelayTime(float delayLineTime){
     int numSamplesDelayLine = sampleRate * delayLineTime;
-    //std::cout << "numSamplesDelayLine: " << numSamplesDelayLine << "\n";
 
     if((delayLineTime > 0) && (delayLineTime < (size * 0.5))){
         this->delayLineTime = delayLineTime;
-        //std::cout << "delayLineTime: " << delayLineTime << "\n";
 
         delayLine.setDistanceRW(numSamplesDelayLine);
 	}

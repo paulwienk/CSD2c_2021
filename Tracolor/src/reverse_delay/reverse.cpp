@@ -72,10 +72,12 @@ void Reverse::process(float* inBuf, float* outBuf, uint frames){
 
 }
 
+// formula found in this paper https://ccrma.stanford.edu/~jingjiez/portfolio/echoing-harmonics/pdfs/A%20Pitch%20Shifting%20Reverse%20Echo%20Audio%20Effect.pdf
 float Reverse::gain(){
 	float gain;
 	float delayMax = getSize();
 	float distance = getDistanceRW();
+
 
 	gain = 4 * distance/delayMax * (1 - distance/delayMax);
 
