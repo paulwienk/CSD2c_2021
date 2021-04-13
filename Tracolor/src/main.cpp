@@ -1,5 +1,5 @@
 
-// by Paul Wienk and Steven van Esch
+// by Paul Wienk and Steven van Esch, with help from Wouter Ensink
 
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
@@ -87,23 +87,16 @@ int main()
         cap.read(frame);
         findColor(frame);
 
-        Mat greenMask, blueMask, gr, be;
-
-        bitwise_and(frame, frame, gr, greenMask);
-        bitwise_and(frame, frame, be, blueMask);
-
         flip(frame, frame, 1);
         imshow("Image", frame);
-        imshow("Imag", gr);
 
-
-        // triggers the pitchshifter
+        // triggers the pitch shifter and sets frequency
         if (!currentState)
         {
             callback.pitcher.pitcher.saw.setFrequency(greenY);
         }
 
-        // will trigger the delay
+        // triggers the reverse delay and sets feedback and delay time
         if (currentState)
         {
             delay.setFeedback(blueY);

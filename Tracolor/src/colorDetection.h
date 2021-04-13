@@ -1,5 +1,6 @@
 
 // by Paul Wienk
+// 'OpenCV Tutorials' was used for the help with the openCV library
 
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
@@ -13,7 +14,7 @@ bool currentState;
 
 Mat frame;
 
-// green will represent the pitchshifter, blue will represent the delay
+// green will represent the pitch shifter, blue will represent the reverse delay
 float greenY;
 float blueX;
 float blueY;
@@ -46,7 +47,7 @@ void getContoursForColor(Mat object, Scalar color, function<void()> onDetected)
             rectangle(frame, boundingBox[i].tl(), boundingBox[i].br(), color, 3);
 
             // store the Y and X coordinate in a variable, scaled to the right frequencies
-            // the Y coordinate will be used to control the pitchsifter on the Y-axis (coordinates 150 to 600)
+            // the Y coordinate will be used to control the pitch shifter on the Y-axis (coordinates 150 to 600)
             // the X coordinate will be used to control the delay on the X-axis (coordinates 150 to 750)
             greenY = 6000.0 / (boundingBox[i].tl().y + 150.0);
             blueY = 47.5 / (boundingBox[i].tl().y + 50.0);
