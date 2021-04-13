@@ -12,8 +12,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1a91b37-53cc-4f2a-9c65-5a8ddf8f1b09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/colorDetection/test.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portaudio/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/portaudio/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/.idea/colorDetection.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/.idea/colorTracking.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/.vs/ProjectSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/.vs/VSWorkspaceState.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/.vs/colorTracking/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/.vs/colorTracking/v15/Browse.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/.vs/slnx.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/colorDetection.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/pitch_shifter/circBuffer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/pitch_shifter/circBuffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/pitch_shifter/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/pitch_shifter/oscillator.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/pitch_shifter/oscillator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/pitch_shifter/pitcher.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/pitch_shifter/port_audio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/pitch_shifter/saw.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/pitch_shifter/saw.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/reverse_delay/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/reverse_delay/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/reverse_delay/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/reverse_delay/.idea/tracolor.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/reverse_delay/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/reverse_delay/delay.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/reverse_delay/delay.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/reverse_delay/delayLine.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/reverse_delay/delayLine.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/reverse_delay/jackModuleAdapter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/reverse_delay/log.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/reverse_delay/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/reverse_delay/port_audio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/reverse_delay/reverse.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tracolor/reverse_delay/reverse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/concept_tracolor.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/logboek_tracolor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/pitch_shifter_flowchart.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/reverse_delay_ flowchart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/tracolor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/tracolor_systeemdiagram.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +67,6 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -38,25 +81,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Tracolor" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DisplayImage" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DisplayImage" TARGET_NAME="DisplayImage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DisplayImage" RUN_TARGET_NAME="DisplayImage">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -69,10 +102,24 @@
       <option name="presentableId" value="Default" />
       <updated>1615989222308</updated>
       <workItem from="1615989223535" duration="830000" />
+      <workItem from="1618308910427" duration="28000" />
+      <workItem from="1618308952991" duration="12000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d949dc9e-064f-4472-9727-a129481500e5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/colorDetection.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/colorTracking.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/colorTracking/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/colorTracking/v15/Browse.VC.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/colorDetection.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pitch_shifter/circBuffer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pitch_shifter/circBuffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pitch_shifter/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pitch_shifter/oscillator.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pitch_shifter/oscillator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pitch_shifter/pitcher.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pitch_shifter/port_audio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pitch_shifter/saw.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pitch_shifter/saw.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse_delay/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse_delay/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse_delay/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse_delay/.idea/tracolor.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse_delay/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse_delay/delay.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse_delay/delay.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse_delay/delayLine.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse_delay/delayLine.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse_delay/jackModuleAdapter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse_delay/log.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse_delay/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse_delay/port_audio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse_delay/reverse.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse_delay/reverse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/concept_tracolor.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/logboek_tracolor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/pitch_shifter_flowchart.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/reverse_delay_ flowchart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/tracolor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/tracolor_systeemdiagram.jpg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1r6ufeNs8p1T1V95ZBBGud2dlHa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d949dc9e-064f-4472-9727-a129481500e5" name="Default Changelist" comment="" />
+      <created>1618308965381</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618308965381</updated>
+      <workItem from="1618308966776" duration="203000" />
+      <workItem from="1618309183775" duration="71000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
