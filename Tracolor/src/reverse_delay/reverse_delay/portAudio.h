@@ -1,4 +1,3 @@
-
 // PortAudio API wrapper by Wouter Ensink
 
 #pragma once
