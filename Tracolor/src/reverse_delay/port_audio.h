@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include <portaudio.h>
+#include <port_audio.h>
 #include <exception>
 
 class AudioIODeviceCallback {

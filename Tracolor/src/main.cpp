@@ -10,17 +10,16 @@
 #include "reverse_delay/jackModuleAdapter.h"
 #include "reverse_delay/delayLine.h"
 #include "reverse_delay/delay.h"
-#include "reverse_delay/reverse.h"
+//#include "reverse_delay/reverse.h"
 #include "colorDetection.h"
 
 using namespace cv;
 using namespace std;
 
 // 10 seconds if sampleRate = 44100inBuf[i]
-inline constexpr auto MAX_DELAY_SIZE = 441000;
-inline constexpr auto DELAY_TIME_SEC = 0.5f;
-inline constexpr auto REVERSE_TIME_SEC = 1.0f;
-
+constexpr auto MAX_DELAY_SIZE = 441000;
+constexpr auto DELAY_TIME_SEC = 0.5f;
+constexpr auto REVERSE_TIME_SEC = 1.0f;
 
 // one main callback which calls the right process function
 struct Callback : AudioIODeviceCallback {
@@ -61,17 +60,16 @@ int main()
 
     // instantiate delay, 2x larger then delay time and set feedback/delay
     Delay delay(bufferSizeDelay, numSamplesDelay, sampleRate, 0.8);
-    delay.log();
-    Reverse reverse(bufferSizeReverse, sampleRate);
+//    Reverse reverse(bufferSizeReverse, sampleRate);
 
     Callback callback;
 
-    callback.delay.callback = [&reverse, &delay](float *inBuf, float *outBuf, unsigned int nframes) {
+    callback.delay.callback = [&delay](float *inBuf, float *outBuf, unsigned int nFrames) {
 
-        for(unsigned int i = 0; i < nframes; i++) {
+        for(unsigned int i = 0; i < nFrames; i++) {
             // process reversing input
-            reverse.process(inBuf, outBuf, i);
-            delay.process(outBuf, outBuf, i);
+//            reverse.process(inBuf, outBuf, i);
+            delay.process(inBuf, outBuf, i);
 
         }
         return 0;

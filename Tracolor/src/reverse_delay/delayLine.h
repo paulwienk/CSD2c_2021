@@ -8,7 +8,7 @@ using namespace std;
 class DelayLine{
 public:
     // constructor and destructor
-    DelayLine(unsigned int size, unsigned int distance, float sampleRate);
+    DelayLine(unsigned int size);
 
     ~DelayLine();
 
@@ -21,9 +21,19 @@ public:
 
     void increaseWriteHead();
 
+    void decreaseReadReverseHead();
+
     void wrapHead(unsigned int& head);
 
+    void wrapReverseReadHead(unsigned int& head);
+
     void tick();
+
+    void reverseTick();
+
+    void write(float value);
+
+    float read();
 
     // setters and getters
     void setBufferSize(unsigned int size);
@@ -37,6 +47,7 @@ private:
     float* buffer = nullptr;
     unsigned int bufferSize;
     unsigned int readHead;
+    unsigned int readReverseHead;
     unsigned int writeHead;
     unsigned int distanceReadWriteHead;
 };

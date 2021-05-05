@@ -6,5 +6,8 @@
     <mapping directory="$PROJECT_DIR$/cmake-build-debug/_deps/port_audio-src" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/delay_circ_buffer/cmake-build-debug/_deps/port_audio-src" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/reverse_delay/cmake-build-debug/_deps/port_audio-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reverse_delay/cmake-build-debug/_deps/portaudio-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reverse_delay/reverse_delay/cmake-build-debug/_deps/port_audio-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reverse_delay/reverse_delay/cmake-build-debug/_deps/portaudio-src" vcs="Git" />
   </component>
 </project>

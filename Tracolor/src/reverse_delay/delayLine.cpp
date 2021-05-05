@@ -5,8 +5,8 @@
 #include <cstring>
 
 // constructor and destructor
-DelayLine::DelayLine(unsigned int size, unsigned int distance, float sampleRate) :
-bufferSize(size), distanceReadWriteHead(distance)
+DelayLine::DelayLine(unsigned int size) :
+bufferSize(size)
 {
     allocateBuffer();
 }
@@ -17,6 +17,7 @@ DelayLine::~DelayLine()
 }
 
 // methods
+// based on circbuffer by Ciska Vriezinga
 void DelayLine::allocateBuffer()
 {
     buffer = (float*)malloc(bufferSize * sizeof(float));
@@ -47,6 +48,12 @@ void DelayLine::increaseWriteHead()
     wrapHead(writeHead);
 }
 
+void DelayLine::decreaseReadReverseHead()
+{
+    readReverseHead--;
+    wrapReverseReadHead(readReverseHead);
+}
+
 // based on circbuffer by Ciska Vriezinga
 void DelayLine::wrapHead(unsigned int& head)
 {
@@ -56,10 +63,34 @@ void DelayLine::wrapHead(unsigned int& head)
     }
 }
 
+void DelayLine::wrapReverseReadHead(unsigned int& head)
+{
+    if (head == 0)
+    {
+        head += bufferSize - 1;
+    }
+}
+
 void DelayLine::tick()
 {
     increaseWriteHead();
     increaseReadHead();
+}
+
+void DelayLine::reverseTick()
+{
+    increaseWriteHead();
+    decreaseReadReverseHead();
+}
+
+void DelayLine::write(float value)
+{
+    buffer[writeHead] = value;
+}
+
+float DelayLine::read()
+{
+    return buffer[readHead];
 }
 
 // based on circbuffer by Ciska Vriezinga
@@ -74,3 +105,5 @@ unsigned int DelayLine::getDistanceReadWriteHead()
 {
     return distanceReadWriteHead;
 }
+
+

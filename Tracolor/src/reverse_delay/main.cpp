@@ -1,5 +1,6 @@
 #include <iostream>
 #include "delayLine.h"
+#include "port_audio.h"
 #include "jackModuleAdapter.h"
 
 #define MAX_DELAY_SIZE 441000
@@ -15,10 +16,10 @@ int main() {
 
     JackModuleAdapter adapter;
 
-    adapter.callback = [&delayLine](float *inbuf, float *outbuf, unsigned int nframes) {
+    adapter.callback = [&delayLine](float *inBuffer, float *outBuffer, unsigned int nFrames) {
 
-        for(unsigned int i = 0; i < nframes; i++) {
-            delayLine
+        for(unsigned int i = 0; i < nFrames; i++) {
+
         }
     };
 
