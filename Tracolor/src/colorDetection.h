@@ -80,6 +80,7 @@ public:
             greenLastPrinted = false;
             blueLastPrinted = true;
             currentState = true;
+            std::cout << "Once?" << "\n";
         }
     }
 

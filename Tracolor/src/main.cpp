@@ -84,22 +84,23 @@ int main()
     {
         cap.read(frame);
         findColor(frame);
-
+//
         flip(frame, frame, 1);
         imshow("Image", frame);
 
-        // triggers the pitch shifter and sets frequency
-        if (!currentState)
-        {
-            callback.pitcher.pitcher.saw.setFrequency(greenY);
-        }
-
-        // triggers the reverse delay and sets feedback and delay time
-        if (currentState)
-        {
-            delay.setFeedback(blueY);
-            delay.setDelayTime(blueX);
-        }
+//        // triggers the pitch shifter and sets frequency
+//        if (!currentState)
+//        {
+//            callback.pitcher.pitcher.saw.setFrequency(greenY);
+//        }
+//
+//        // triggers the reverse delay and sets feedback and delay time
+//        if (currentState)
+//        {
+//            std::cout << "Current state: " << currentState << "\n";
+////            delay.setFeedback(blueY);
+////            delay.setDelayTime(blueX);
+//        }
 
         // quit with escape button
         if (waitKey(30) == 27)
