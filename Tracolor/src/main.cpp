@@ -3,15 +3,16 @@
 
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
-#include "pitch_shifter/port_audio.h"
+#include "port_audio/port_audio.h"
 #include "pitch_shifter/saw.h"
 #include "pitch_shifter/circBuffer.h"
 #include "pitch_shifter/pitcher.h"
 #include "reverse_delay/jackModuleAdapter.h"
 #include "reverse_delay/delayLine.h"
 #include "reverse_delay/delay.h"
-//#include "reverse_delay/reverse.h"
+#include "port_audio/audioModuleAdapter.h"
 #include "colorDetection.h"
+//#include "reverse_delay/reverse.h"
 
 using namespace cv;
 using namespace std;
@@ -21,6 +22,12 @@ constexpr auto MAX_DELAY_SIZE = 441000;
 constexpr auto DELAY_TIME_SEC = 0.5f;
 constexpr auto REVERSE_TIME_SEC = 1.0f;
 
+// TODO make help function with instructions
+// TODO make function for setting up colours with sliders
+// TODO add motion detection
+
+// TODO make callback a class
+// TODO put in separate file
 // one main callback which calls the right process function
 struct Callback : AudioIODeviceCallback {
 
@@ -37,9 +44,8 @@ struct Callback : AudioIODeviceCallback {
     }
 
     JackModuleAdapter delay;
-    NoiseTestCallback pitcher;
+    AudioModuleAdapter pitcher;
 };
-
 
 int main()
 {
@@ -47,7 +53,7 @@ int main()
     const auto sampleRate = 44100;
     auto blockSize = 64;
 
-    // retrieve either default or console line argument delaytime
+    // retrieve either default or console line argument delayTime
     float delayTimeSec = DELAY_TIME_SEC;
     float reverseTimeSec = REVERSE_TIME_SEC;
 
@@ -69,7 +75,7 @@ int main()
         for(unsigned int i = 0; i < nFrames; i++) {
             // process reversing input
 //            reverse.process(inBuf, outBuf, i);
-            delay.process(inBuf, outBuf, i);
+//            delay.process(inBuf, outBuf, i);
 
         }
         return 0;
@@ -88,19 +94,19 @@ int main()
         flip(frame, frame, 1);
         imshow("Image", frame);
 
-//        // triggers the pitch shifter and sets frequency
-//        if (!currentState)
-//        {
-//            callback.pitcher.pitcher.saw.setFrequency(greenY);
-//        }
-//
-//        // triggers the reverse delay and sets feedback and delay time
-//        if (currentState)
-//        {
-//            std::cout << "Current state: " << currentState << "\n";
-////            delay.setFeedback(blueY);
-////            delay.setDelayTime(blueX);
-//        }
+        // triggers the pitch shifter and sets frequency
+        if (!currentState)
+        {
+            callback.pitcher.pitcher.saw.setFrequency(greenY);
+        }
+
+        // triggers the reverse delay and sets feedback and delay time
+        if (currentState)
+        {
+//            TODO uncomment when delay en pitcher process with callback is functioning as intended
+//            delay.setFeedback(blueY);
+//            delay.setDelayTime(blueX);
+        }
 
         // quit with escape button
         if (waitKey(30) == 27)

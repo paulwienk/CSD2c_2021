@@ -15,6 +15,7 @@ Delay::~Delay()
     delayLine.releaseBuffer();
 }
 
+// TODO make stereo
 void Delay::process(float* inBuffer, float* outBuffer, unsigned int frames)
 {
     delayLine.write(inBuffer[frames] + delayLine.read() * feedback);
@@ -24,6 +25,7 @@ void Delay::process(float* inBuffer, float* outBuffer, unsigned int frames)
     delayLine.tick();
 }
 
+// TODO add windowing
 void Delay::setFeedback(float feedback)
 {
     if((feedback >= 0.0) && (feedback < 1.0))
@@ -32,7 +34,8 @@ void Delay::setFeedback(float feedback)
     }
 }
 
-// TODO update function
+// TODO fill in function and
+// TODO add windowing
 void Delay::setDelayTime(float delayLineTime)
 {
 //    int numSamplesDelayLine = sampleRate * delayLineTime;

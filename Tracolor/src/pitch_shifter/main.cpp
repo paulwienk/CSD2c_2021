@@ -5,7 +5,7 @@
 #include <random>
 #include <iostream>
 #include <string>
-#include "port_audio.h"
+#include "../port_audio/port_audio.h"
 #include "saw.h"
 #include "circBuffer.h"
 
@@ -126,4 +126,12 @@ int main()
     }
     
     return 0;
+}
+
+float windowing(float input) {
+    input -= 0.5;
+    input *= 0.5;
+
+    return (float) std::cos(input * twoPi);
+
 }
