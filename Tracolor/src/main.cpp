@@ -24,28 +24,28 @@ constexpr auto REVERSE_TIME_SEC = 1.0f;
 
 // TODO make help function with instructions
 // TODO make function for setting up colours with sliders
-// TODO add motion detection
+// TODO add motion detection class
 
-// TODO make callback a class
-// TODO put in separate file
-// one main callback which calls the right process function
-struct Callback : AudioIODeviceCallback {
-
-    void prepareToPlay(int sampleRate, int numSamplesPerBlock) override {
-        pitcher.prepareToPlay(sampleRate, numSamplesPerBlock);
-        delay.prepareToPlay(sampleRate, numSamplesPerBlock);
-    }
-
-    void process(float* in, float* out, int numSamples, int numChannels) override {
-        if (!currentState)
-            pitcher.process(in, out, numSamples, numChannels);
-        else
-            delay.process(in, out, numSamples, numChannels);
-    }
-
-    JackModuleAdapter delay;
-    AudioModuleAdapter pitcher;
-};
+//// TODO make callback a class
+//// TODO put in separate file
+//// one main callback which calls the right process function
+//struct Callback : AudioIODeviceCallback {
+//
+//    void prepareToPlay(int sampleRate, int numSamplesPerBlock) override {
+//        pitcher.prepareToPlay(sampleRate, numSamplesPerBlock);
+//        delay.prepareToPlay(sampleRate, numSamplesPerBlock);
+//    }
+//
+//    void process(float* in, float* out, int numSamples, int numChannels) override {
+//        if (!currentState)
+//            pitcher.process(in, out, numSamples, numChannels);
+//        else
+//            delay.process(in, out, numSamples, numChannels);
+//    }
+//
+//    JackModuleAdapter delay;
+//    AudioModuleAdapter pitcher;
+//};
 
 int main()
 {
@@ -68,7 +68,17 @@ int main()
     Delay delay(bufferSizeDelay, numSamplesDelay, sampleRate, 0.8);
 //    Reverse reverse(bufferSizeReverse, sampleRate);
 
-    Callback callback;
+    AudioModuleAdapter audioProcess;
+
+    audioProcess.prepareToPlay(sampleRate, blockSize);
+
+    audioProcess.process(float* in, float* out, int numSamples, int numChannels)
+    {
+        if (!currentState)
+            pitcher.process(in, out, numSamples, numChannels);
+        else
+            delay.process(in, out, numSamples, numChannels);
+    }
 
     callback.delay.callback = [&delay](float *inBuf, float *outBuf, unsigned int nFrames) {
 

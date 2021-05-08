@@ -24,6 +24,7 @@ public:
     void releaseResources() override;
 
     Pitcher pitcher;
+    
 };
 
 #endif //TRACOLOR_AUDIOMODULEADAPTER_H
